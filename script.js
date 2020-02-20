@@ -1,5 +1,6 @@
 let da = document.querySelector("input");
 let footer = document.querySelector("footer");
+let navitems =  document.querySelectorAll("a");
 
 // feather.replace()
 

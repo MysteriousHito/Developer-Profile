@@ -6,7 +6,7 @@ html, body {
   margin: 0;
 }
 
-/*.border {
+.border {
 display: flex;
 justify-content: center;
 height: 100%;
@@ -24,7 +24,7 @@ height: 100%;
   width: 33%;
   margin: 5.75rem 0rem 0rem 2rem;
   background-color: white;
-}*/
+}
 
 
 a:focus {
@@ -130,8 +130,6 @@ nav {
   margin-right: 0px;
   position: relative;
   height: 50px;
-  /*Deciding with or without?*/
-  /*background-color: #2A00FF; */
   border-radius: 8px;
   font-size: 0;
   font-family: 'Inria Serif', serif;
@@ -148,6 +146,7 @@ nav .home, .about, .services, .contact {
   text-align: center;
   color: white;
   cursor: pointer;
+  border-radius: 20%;
 }
 
 
@@ -358,7 +357,7 @@ svg {
   z-index: 150;
 }
 
-.webdesigner {
+.wd {
   font-size: 1.25rem;
   display: flex;
   align-items: center;
@@ -374,14 +373,14 @@ svg {
 }
 
 .pfpage {
-  height: 100vh;
+  height: 110vh;
   background: rgb(255,255,255);
   background: linear-gradient(180deg, rgba(255,255,255,1) 3%, rgba(111,117,185,1) 10%, rgba(111,117,185,1) 90%, rgba(0,21,39,1) 97%);
   position: relative;
 }
 
 .cppage {
-  height: 80vh;
+  height: 70vh;
   background: linear-gradient(180deg, #001628 25%, #000000 100%);
   position: relative;
 }
@@ -410,9 +409,15 @@ footer {
   font-size: 1rem;
   transition: all 1s ease-out;
 
+
 }
 
 footer:hover {
   transform: scale(1.075);
   transition-delay: 0.05s;
+}
+
+.home:hover, .about:hover, .services:hover, .contact:hover {
+  color: #2A00FF;
+  font-weight: bolder;
 }

@@ -90,7 +90,8 @@
   and (min-width: 240px) 
   and (orientation: portrait) {
   .home {
-    margin-left: 8.5%;
+    margin-left: 17%;
+    right: 0.25rem;
  }
 }
 
@@ -98,7 +99,23 @@
   and (min-width: 240px) 
   and (orientation: portrait) {
   .about {
-    right: 4px;
+    right: -0
+ }
+}
+
+@media only screen 
+  and (min-width: 240px) 
+  and (orientation: portrait) {
+  .services {
+    right: -0.75rem;
+ }
+}
+
+@media only screen 
+  and (min-width: 240px) 
+  and (orientation: portrait) {
+  .contact {
+    right: -1rem;
  }
 }
 
@@ -205,12 +222,20 @@ text-align: center;
   }
 }
 
+@media only screen 
+  and (min-width: 320px) 
+  and (orientation: portrait) {
+  .home {
+    margin-left: 9%;
+    right: 0.85rem;
+ }
+}
 
 @media only screen 
   and (min-width: 320px) 
   and (orientation: portrait) {
   .about {
-    right: 20px;
+    right: 1rem;
  }
 }
 
@@ -218,7 +243,7 @@ text-align: center;
   and (min-width: 320px) 
   and (orientation: portrait) {
   .services {
-    right: 5px;
+    right: 0rem;
  }
 }
 
@@ -227,6 +252,7 @@ text-align: center;
   and (orientation: portrait) {
   .contact {
     margin-right: 2.65rem;
+    right: -1rem;
  }
 }
 
@@ -366,8 +392,17 @@ text-align: center;
 @media only screen 
   and (min-width: 360px)
   and (orientation: portrait) {
-  .about {
+  .home {
     right: 20px;
+    margin-left: 12%;
+ }
+}
+
+@media only screen 
+  and (min-width: 360px)
+  and (orientation: portrait) {
+  .about {
+    right: 1.5rem;
  }
 }
 
@@ -384,6 +419,7 @@ text-align: center;
   and (orientation: portrait) {
   .contact {
     margin-right: 2.65rem;
+    right: -0.5rem;
  }
 }
 
@@ -414,12 +450,20 @@ text-align: center;
 
 /*LG OPTIMUS L70 PORTRAIT */
 
+@media only screen 
+  and (min-width: 384px)
+  and (orientation: portrait) {
+  .home {
+    margin-left: 16%;
+    right: 2rem;
+ }
+}
 
 @media only screen 
   and (min-width: 384px)
   and (orientation: portrait) {
   .about {
-    right: 20px;
+    right: 2rem;
  }
 }
 
@@ -427,7 +471,7 @@ text-align: center;
   and (min-width: 384px)
   and (orientation: portrait) {
   .services {
-    right: 5px;
+    right: 0.7rem;
  }
 }
 
@@ -436,6 +480,7 @@ text-align: center;
   and (orientation: portrait) {
   .contact {
     margin-right: 2.65rem;
+    right: -0.25rem;
  }
 }
 
@@ -589,19 +634,40 @@ text-align: center;
  }
 }
 
-/*Pixel2 Portrait*/
+/*iPhone 6/7/8 Plus Portrait*/
 
 @media only screen 
-  and (min-width: 411px)
+  and (min-width: 400px) 
+  and (orientation: portrait) {
+  .home, .about, .services, .contact {
+    margin: -5px auto 0;
+    font-size: 1rem;
+    width: 2.85rem;
+    margin-top: 1.5rem;
+  }
+}
+
+@media only screen 
+  and (min-width: 400px) 
+  and (orientation: portrait) {
+  nav {
+    margin: 0px auto 0;
+    display: flex;
+text-align: center;
+ 
+  }
+}
+
+@media only screen 
+  and (min-width: 400px) 
   and (orientation: portrait) {
   .home {
     left: 1rem;
-    margin-left: 5%;
  }
 }
 
 @media only screen 
-  and (min-width: 411px) 
+  and (min-width: 400px) 
   and (orientation: portrait) {
   .about {
     right: 1rem;
@@ -609,10 +675,46 @@ text-align: center;
 }
 
 @media only screen 
-  and (min-width: 411px) 
+  and (min-width: 400px) 
   and (orientation: portrait) {
   .services {
     right: 1rem;
+ }
+}
+
+@media only screen 
+  and (min-width: 400px) 
+  and (orientation: portrait) {
+  .contact {
+    margin-right: 2.65rem;
+    right: 1.5rem;
+ }
+}
+
+/*Pixel2 Portrait*/
+
+@media only screen 
+  and (min-width: 411px)
+  and (orientation: portrait) {
+  .home {
+    left: -1rem;
+    margin-left: 16%;
+ }
+}
+
+@media only screen 
+  and (min-width: 411px) 
+  and (orientation: portrait) {
+  .about {
+    right: 2rem;
+ }
+}
+
+@media only screen 
+  and (min-width: 411px) 
+  and (orientation: portrait) {
+  .services {
+    right: 1.6rem;
  }
 }
 
@@ -622,6 +724,31 @@ text-align: center;
   .contact {
     margin-right: 2.65rem;
     right: 1.5rem;
+ }
+}
+
+@media only screen 
+  and (min-width: 411px)
+  and (orientation: portrait) {
+  .home {
+    margin-left: 20%;
+    left: -2rem;
+ }
+}
+
+@media only screen 
+  and (min-width: 411px)
+  and (orientation: portrait) {
+  .about {
+    left: -2.5rem;
+ }
+}
+
+@media only screen 
+  and (min-width: 411px)
+  and (orientation: portrait) {
+  .services {
+    left: -1.9rem;
  }
 }
 
@@ -681,63 +808,6 @@ text-align: center;
  }
 }
 
-/*iPhone 6/7/8 Plus Portrait*/
-
-@media only screen 
-  and (min-width: 400px) 
-  and (orientation: portrait) {
-  .home, .about, .services, .contact {
-    margin: -5px auto 0;
-    font-size: 1rem;
-    width: 2.85rem;
-    margin-top: 1.5rem;
-  }
-}
-
-@media only screen 
-  and (min-width: 400px) 
-  and (orientation: portrait) {
-  nav {
-    margin: 0px auto 0;
-    display: flex;
-text-align: center;
- 
-  }
-}
-
-@media only screen 
-  and (min-width: 400px) 
-  and (orientation: portrait) {
-  .home {
-    left: 1rem;
- }
-}
-
-@media only screen 
-  and (min-width: 400px) 
-  and (orientation: portrait) {
-  .about {
-    right: 1rem;
- }
-}
-
-@media only screen 
-  and (min-width: 400px) 
-  and (orientation: portrait) {
-  .services {
-    right: 1rem;
- }
-}
-
-@media only screen 
-  and (min-width: 400px) 
-  and (orientation: portrait) {
-  .contact {
-    margin-right: 2.65rem;
-    right: 1.5rem;
- }
-}
-
 /*Nokia N9 Portrait*/
 
 @media only screen 
@@ -766,7 +836,9 @@ text-align: center;
   and (min-width: 480px) 
   and (orientation: portrait) {
   .home {
-    left: 1rem;
+    left: -2rem;
+    margin-left: 17.5%;
+
  }
 }
 
@@ -782,7 +854,7 @@ text-align: center;
   and (min-width: 480px) 
   and (orientation: portrait) {
   .services {
-    right: 1rem;
+    right: 4rem;
  }
 }
 
@@ -857,8 +929,33 @@ text-align: center;
   and (orientation: portrait) {
   .home {
     left: 1rem;
-    margin-left: 8%;
+    margin-left: 5.5%;
     
+ }
+}
+
+@media only screen 
+  and (min-width: 500px) 
+  and (orientation: portrait) {
+  .about {
+    left: -1rem;   
+ }
+}
+
+@media only screen 
+  and (min-width: 500px) 
+  and (orientation: portrait) {
+  .services {
+    left: -1rem;   
+ }
+}
+
+
+@media only screen 
+  and (min-width: 533px) 
+  and (orientation:landscape) {
+  .home {
+    margin-left: 11%;
  }
 }
 
@@ -888,7 +985,8 @@ text-align: center;
   and (min-width: 568px) 
   and (orientation:landscape) {
   .home {
-    left: 4.4rem;
+    left: 3rem;
+    margin-left: 14%;
  }
 }
 
@@ -896,7 +994,7 @@ text-align: center;
   and (min-width: 568px) 
   and (orientation: landscape) {
   .about {
-    left: -0.3rem;
+    left: -0.75rem;
  }
 }
 
@@ -913,7 +1011,7 @@ text-align: center;
   and (orientation: landscape) {
   .contact {
     margin-right: 2.65rem;
-    left: -6.25rem;
+    left: -5.75rem;
  }
 }
 
@@ -945,7 +1043,8 @@ text-align: center;
   and (min-width: 600px)
   and (orientation: portrait) {
   .home {
-    left: 4.4rem;
+    left: 2rem;
+    margin-left: 6rem;
  }
 }
 
@@ -953,7 +1052,7 @@ text-align: center;
   and (min-width: 600px) 
   and (orientation: portrait) {
   .about {
-    left: -0.3rem;
+    left: -1.25em;
  }
 }
 
@@ -961,7 +1060,7 @@ text-align: center;
   and (min-width: 600px) 
   and (orientation: portrait) {
   .services {
-    left: -3rem;
+    left: -2.5rem;
  }
 }
 
@@ -970,7 +1069,7 @@ text-align: center;
   and (orientation: portrait) {
   .contact {
     margin-right: 2.65rem;
-    left: -6.25rem;
+    left: -4rem;
  }
 }
 
@@ -1033,6 +1132,15 @@ text-align: center;
  }
 }
 
+@media only screen 
+  and (min-width: 640px) 
+  and (orientation: landscape) {
+  .home {
+    left: 4rem;
+    margin-left: 15.5%;
+ }
+}
+
 /*Iphone 6/7/8 landscape */
 
 @media only screen 
@@ -1050,19 +1158,15 @@ text-align: center;
   and (orientation: landscape) {
   nav {
     margin: 0px auto 0;
-
-
-
- 
-  }
+ }
 }
 
 @media only screen 
   and (min-width: 667px) 
   and (orientation: landscape) {
   .home {
-    left: 4.5rem;
-    margin-left: 14.5%;
+    left: 4rem;
+    margin-left: 16.5%;
  }
 }
 
@@ -1225,7 +1329,7 @@ text-align: center;
   and (min-width:  731px) 
   and (orientation: landscape) {
   .home {
-    left: 4.5rem;
+    left: 4rem;
     margin-left: 17.5%;
  }
 }
@@ -1234,7 +1338,7 @@ text-align: center;
   and (min-width:  731px) 
   and (orientation: landscape) {
   .about {
-    left: 2rem;
+    left: 2.65rem;
  }
 }
 
@@ -1242,7 +1346,7 @@ text-align: center;
   and (min-width:  731px) 
   and (orientation: landscape) {
   .services {
-    left: 1.5rem;
+    left: 3rem;
  }
 }
 
@@ -1251,7 +1355,7 @@ text-align: center;
   and (orientation:landscape) {
   .contact {
     margin-right: 30%;
-    left: 0.4rem;
+    left: 3rem;
 
  }
 }
@@ -1337,8 +1441,8 @@ text-align: center;
   and (min-width:  736px) 
   and (orientation: landscape) {
   .home {
-    left: 4.5rem;
-    margin-left: 18%;
+    left: 4rem;
+    margin-left: 20%;
  }
 }
 
@@ -1453,7 +1557,7 @@ text-align: center;
   and (min-width:  800px) 
   and (orientation: portrait) {
   .home {
-    margin-left: 10%
+    margin-left: 15%
  }
 }
 
@@ -1564,8 +1668,8 @@ text-align: center;
   and (min-width: 812px) 
   and (orientation: landscape) {
   .home {
-    left: 4.5rem;
-    margin-left: 20.5%;
+    left: 4rem;
+    margin-left: 21%;
  }
 }
 
@@ -1573,7 +1677,7 @@ text-align: center;
   and (min-width: 812px) 
   and (orientation: landscape) {
   .about {
-    left: 2rem;
+    left: 2.5rem;
  }
 }
 
@@ -1581,7 +1685,7 @@ text-align: center;
   and (min-width: 812px) 
   and (orientation: landscape) {
   .services {
-    left: 1.5rem;
+    left: 2.25rem;
  }
 }
 
@@ -1590,7 +1694,7 @@ text-align: center;
   and (orientation:landscape) {
   .contact {
     margin-right: 32%;
-    left: 0.4rem;
+    left: 2rem;
 
  }
 }
@@ -1608,8 +1712,8 @@ text-align: center;
   and (min-width: 823px) 
   and (orientation: landscape) {
   .home {
-    left: 4.5rem;
-    margin-left: 21%;
+    left: 3rem;
+    margin-left: 22%;
  }
 }
 
@@ -1617,7 +1721,7 @@ text-align: center;
   and (min-width: 823px) 
   and (orientation: landscape) {
   .about {
-    left: 2rem;
+    left: 1.75rem;
  }
 }
 
@@ -1625,7 +1729,7 @@ text-align: center;
   and (min-width: 823px) 
   and (orientation: landscape) {
   .services {
-    left: 1.5rem;
+    left: 2.25rem;
  }
 }
 
@@ -1634,7 +1738,7 @@ text-align: center;
   and (orientation:landscape) {
   .contact {
     margin-right: 32%;
-    left: 0.4rem;
+    left: 2rem;
 
  }
 }
@@ -1655,8 +1759,8 @@ text-align: center;
   and (min-width: 854px)  
   and (orientation: landscape) {
   .home {
-    left: 4.5rem;
-    margin-left: 23.25%;
+    left: 2rem;
+    margin-left: 24%;
  }
 }
 
@@ -1664,7 +1768,7 @@ text-align: center;
   and (min-width: 854px)  
   and (orientation: landscape) {
   .about {
-    left: 2rem;
+    left: 1rem;
  }
 }
 
@@ -1672,7 +1776,7 @@ text-align: center;
   and (min-width: 854px)  
   and (orientation: landscape) {
   .services {
-    left: 1.5rem;
+    left: 2rem;
  }
 }
 
@@ -1681,7 +1785,7 @@ text-align: center;
   and (orientation:landscape) {
   .contact {
     margin-right: 32%;
-    left: 0.4rem;
+    left: 2.5rem;
 
  }
 }
@@ -1738,8 +1842,8 @@ text-align: center;
   and (min-width: 960px)  
   and (orientation: landscape) {
   .home {
-    left: 0rem;
-    margin-left: 30%;
+    left: -3.5rem;
+    margin-left: 32.5%;
  }
 }
 
@@ -1747,7 +1851,7 @@ text-align: center;
   and (min-width: 960px)  
   and (orientation: landscape) {
   .about {
-    left: -1.5rem;
+    left: -1.75rem;
  }
 }
 
@@ -1755,7 +1859,7 @@ text-align: center;
   and (min-width: 960px)  
   and (orientation: landscape) {
   .services {
-     left: 0rem;
+     left: 2rem;
  }
 }
 
@@ -1764,7 +1868,7 @@ text-align: center;
   and (orientation:landscape) {
   .contact {
     margin-right: 35%;
-    left: 0.4rem;
+    left: 5rem;
 
  }
 }
@@ -1798,8 +1902,8 @@ text-align: center;
   and (min-width: 1024px) 
   and (orientation: landscape) {
   .home {
-    left: 0rem;
-    margin-left: 30%;
+    left: -1rem;
+    margin-left: 28%;
  }
 }
 
@@ -1807,7 +1911,7 @@ text-align: center;
   and (min-width: 1024px) 
   and (orientation: landscape) {
   .about {
-    left: -1.5rem;
+    left: -0rem;
  }
 }
 
@@ -1815,7 +1919,7 @@ text-align: center;
   and (min-width: 1024px) 
   and (orientation: landscape) {
   .services {
-   left: 0rem;
+   left: 3rem;
  }
 }
 
@@ -1824,7 +1928,7 @@ text-align: center;
   and (orientation: landscape) {
   .contact {
      margin-right: 35%;
-    left: 0.4rem;
+    left: 5rem;
  }
 }
 
@@ -1856,8 +1960,8 @@ text-align: center;
   and (min-width: 1024px) 
   and (orientation: portrait) {
   .home {
-    margin-left: 10rem;
-    left: 3.75rem;
+    margin-left: 19%;
+    left: 2rem;
  }
 }
 
@@ -1873,7 +1977,7 @@ text-align: center;
   and (min-width: 1024px) 
   and (orientation: portrait) {
   .services {
-    right: 15rem;
+    right: 13rem;
     margin-left: 6%;
  }
 }
@@ -1915,8 +2019,8 @@ text-align: center;
   and (min-width: 1280px) 
   and (orientation: landscape) {
   .home {
-    left: 0rem;
-    margin-left: 30%;
+    left: 1rem;
+    margin-left: 27%;
 
  }
 }
@@ -1925,7 +2029,7 @@ text-align: center;
   and (min-width: 1280px) 
   and (orientation: landscape) {
   .about {
-    left: -1.5rem;
+    left: 1rem;
  }
 }
 
@@ -1933,7 +2037,7 @@ text-align: center;
   and (min-width: 1280px) 
   and (orientation: landscape) {
   .services {
-   left: 0rem;
+   left: 3rem;
  }
 }
 
@@ -1942,7 +2046,7 @@ text-align: center;
   and (orientation: landscape) {
   .contact {
       margin-right: 35%;
-    left: 0.4rem;
+    left: 5rem;
  }
 }
 
@@ -1975,8 +2079,8 @@ text-align: center;
   and (min-width: 1366px) 
   and (orientation: landscape) {
   .home {
-    left: 0rem;
-    margin-left: 30%;
+    left: -4rem;
+    margin-left: 36%;
  }
 }
 
@@ -1984,7 +2088,7 @@ text-align: center;
   and (min-width: 1366px) 
   and (orientation: landscape) {
   .about {
-    left: -1.5rem;
+    left: -3rem;
  }
 }
 
@@ -1992,7 +2096,7 @@ text-align: center;
   and (min-width: 1366px) 
   and (orientation: landscape) {
   .services {
-   left: 0rem;
+   left: 1rem;
  }
 }
 
@@ -2001,7 +2105,40 @@ text-align: center;
   and (orientation: landscape) {
   .contact {
    margin-right: 35%;
-    left: 0.4rem;
+    left: 4rem;
+ }
+}
+
+@media only screen 
+  and (min-width: 1440px) 
+  and (orientation: landscape) {
+  .home {
+    left: -2rem;
+    margin-left: 32%;
+ }
+}
+
+@media only screen 
+  and (min-width: 1440px) 
+  and (orientation: landscape) {
+  .about {
+    left: -1.5rem;
+ }
+}
+
+@media only screen 
+  and (min-width: 1440px) 
+  and (orientation: landscape) {
+  .services {
+    left: 1rem;  
+ }
+}
+
+@media only screen 
+  and (min-width: 1440px) 
+  and (orientation: landscape) {
+  .contact {
+    left: 3.5rem;
  }
 }
 
@@ -2085,8 +2222,16 @@ text-align: center;
   and (orientation: portrait) {
   .design {
     font-size: 0.7rem;
-    margin-left: 8%;
-    margin-top: 40%;
+    margin-left: 5%;
+    margin-top: 50%;
+  }
+}
+
+@media only screen 
+  and (min-width: 180px) 
+  and (orientation: portrait) {
+  .wd {
+    font-size: 0.5rem;
   }
 }
 
@@ -2105,6 +2250,7 @@ text-align: center;
   and (orientation: portrait) {
   .profweb {
     font-size: 0.55rem;
+    margin-top: -5%;
   }
 }
 
@@ -2125,6 +2271,35 @@ text-align: center;
    margin-left: 10%;
   }
 }
+
+@media only screen 
+  and (min-width: 320px) 
+  and (orientation: landscape) {
+  .wd {
+    font-size: 0.5rem;
+    margin-bottom: 15%;
+  }
+}
+
+@media only screen 
+  and (min-width: 320px)  
+  and (orientation: landscape) {
+  .design {
+    font-size: 1rem;
+    margin-left: 3%;
+    margin-top: 25%;
+  }
+}
+
+@media only screen 
+  and (min-width: 320px) 
+  and (orientation: landscape) {
+  .profweb {
+   font-size: 0.55rem;
+   
+  }
+}
+
 
 @media only screen 
   and (min-width: 328px)  
@@ -2516,7 +2691,7 @@ text-align: center;
   }
 }
 
-/* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */
+/* portrait tablets, phones (Android) */
 
 @media only screen 
   and (min-width: 600px) 
