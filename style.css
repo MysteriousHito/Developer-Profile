@@ -171,7 +171,7 @@ nav .animation {
 }
 
 .home:hover, .about:hover, .services:hover, .contact:hover {
-  transform: scale(1.15);
+  transform: scale(1.25);
   transition: all 1s ease-out;
   transition-delay: 0.05s;
 }
