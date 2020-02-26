@@ -6,11 +6,11 @@ html, body {
   margin: 0;
   -webkit-text-size-adjust: 100%;
 }
-
+/*
 .border {
 display: flex;
 justify-content: center;
-height: 100%;
+  height: 360%;
   width: 100%;
   z-index: 25;
   position: absolute;
@@ -21,12 +21,12 @@ height: 100%;
 
 
 .blue {
-  height: 0.2%;
+  height: 0.05%;
   width: 33%;
   margin: 5.75rem 0rem 0rem 2rem;
   background-color: white;
 }
-
+*/
 
 a:focus {
   outline-color: #2B03FF;
@@ -49,11 +49,11 @@ a:focus {
   left: 4.2%;
   font-family: Inria Serif;
   font-size: 18px;
-  z-index: 33;
+  z-index: 35;
   text-align: center;
   cursor: default;
   user-select: none;
-  animation-delay: 1s;
+  animation-delay: 2s;
 }
 
 .letstalk {
@@ -130,11 +130,17 @@ nav {
   margin: -10px auto 0;
   margin-right: 0px;
   position: relative;
-  height: 50px;
-  border-radius: 8px;
+  height: 9.5%;
+  width: 35%;
   font-size: 0;
   font-family: 'Inria Serif', serif;
    z-index: 38;
+   border-style: solid;
+   border-color: white;
+   border-top: none;
+   border-right: none;
+   border-left: none;
+   border-width: 0.15rem;
 }
 
 nav .home, .about, .services, .contact {
@@ -168,6 +174,7 @@ nav .animation {
   -o-transition: all 1s ease-out;
   -ms-transition: all 1s ease-out;
   transition: all 1s ease-out;
+  animation-delay: 0.75s;
  
 }
 
@@ -188,6 +195,7 @@ nav .animation {
   -ms-transition: all 1s ease-out;
   transition: all 1s ease-out;
   text-decoration: none;
+  animation-delay: 1s;
 }
 
 .about:hover {
@@ -205,6 +213,7 @@ nav .animation {
   -ms-transition: all 1s ease-out;
   transition: all 1s ease-out;
   text-decoration: none;
+  animation-delay: 1.25s;
 }
 
 .services:hover {
@@ -221,6 +230,7 @@ nav .animation {
   -ms-transition: all 1s ease-out;
   transition: all 1s ease-out;
   text-decoration: none;
+  animation-delay: 1.5s;
 }
 
 .contact:hover {
@@ -294,7 +304,7 @@ h3, p {
   animation: move-wave 3s;
    -webkit-animation: move-wave 3s;
    -webkit-animation-delay: 1s;
-   animation-delay: 1s;
+   animation-delay: 5s;
 }
 .waveMiddle {
     background-size: 50% 120px;
@@ -316,7 +326,7 @@ text-align: center;
 .profweb {
   white-space: wrap;
   text-align: center;
-  animation-delay: 2s;
+  animation-delay: 3s;
   word-spacing: 0.225rem;
   margin-top: -2.5rem;
 
@@ -328,8 +338,8 @@ text-align: center;
   background:url(images/Down Arrowww.png) no-repeat;   
   z-index: 50;
   padding: 0.75em;
-  animation-delay: 3.25s;
-  animation-duration: 5s;
+  animation-delay: 4s;
+  animation-duration: 4s;
 
 }
 

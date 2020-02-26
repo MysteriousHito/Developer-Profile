@@ -1,6 +1,5 @@
 let da = document.querySelector("input");
 let footer = document.querySelector("footer");
-let navitems =  document.querySelectorAll("a");
 
 // feather.replace()
 
@@ -24,3 +23,6 @@ function footerRemove(e) {
 	event.target.classList.remove("animated");
 	event.target.classList.remove("bounceInLeft");
 }
+
+
+
