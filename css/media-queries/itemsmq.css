@@ -1,0 +1,834 @@
+/*!!!!!!!!!!!!!!!!!!!! PORTRAITS!!!!!!!!!!!!!!!!!!!!*/
+
+/* Smallest Phone */ 
+@media only screen 
+  and (min-width: 180px) 
+  and (orientation: portrait) {
+  .home {
+    margin-left: 2.25rem;
+    left: -1.55rem;
+ }
+}
+
+/* Smallest phone */
+@media only screen 
+  and (min-width: 180px) 
+  and (orientation: portrait) {
+  .about {
+    left: -0.45rem;
+ }
+}
+
+/* Smallest phone */
+@media only screen 
+  and (min-width: 180px) 
+  and (orientation: portrait) {
+  .services {
+    left: 0.8rem;
+ }
+}
+
+/* Smallest phone */
+@media only screen 
+  and (min-width: 180px) 
+  and (orientation: portrait) {
+  .contact {
+    margin-right: 2.65rem;
+    left: 2rem;
+ }
+}
+
+/* iPhone SE */ 
+@media only screen 
+  and (min-width: 320px) 
+  and (orientation: portrait) {
+  .home {
+    margin-left: 2rem !important;
+    right: 1rem;
+ }
+}
+
+/* iPhone SE */
+@media only screen 
+  and (min-width: 320px) 
+  and (orientation: portrait) {
+  .about {
+    left: -1.25rem;
+ }
+}
+
+/* iPhone SE */ 
+@media only screen 
+  and (min-width: 320px) 
+  and (orientation: portrait) {
+  .services {
+    left: 0.25rem !important;
+ }
+}
+
+/* iPhone SE */
+@media only screen 
+  and (min-width: 320px) 
+  and (orientation: portrait) {
+  .contact {
+    margin-right: 2.65rem !important;
+    left: 1.55rem;
+ }
+}
+
+/* iPhone 6/7/8 and iPhone X */ 
+@media only screen 
+  and (min-width: 375px)
+  and (orientation: portrait) {
+  .home {
+    left: -1.25rem;
+    margin-left: 2rem !important;
+ }
+}
+
+/* iPhone 6/7/8 and iPhone X */ 
+@media only screen 
+  and (min-width: 375px)
+  and (orientation: portrait) {
+  .about {
+    left: -1.5rem;
+ }
+}
+
+/* iPhone 6/7/8 and iPhone X */ 
+@media only screen 
+  and (min-width: 375px)
+  and (orientation: portrait) {
+  .services {
+    left: 0rem !important;
+ }
+}
+
+/* iPhone 6/7/8 and iPhone X */ 
+@media only screen 
+  and (min-width: 375px)
+  and (orientation: portrait) {
+  .contact {
+    left: 1rem !important;
+ }
+}
+
+/* iPhone 6/7/8 Plus */
+@media only screen 
+  and (min-width: 414px)
+  and (orientation: portrait) {
+  .home {
+    left: -1rem;
+    margin-left: 3rem;
+ }
+}
+
+/* iPhone 6/7/8 Plus */
+@media only screen 
+  and (min-width: 414px) 
+  and (orientation: portrait) {
+  .about {
+    left: -1.5rem;
+ }
+}
+
+/* iPhone 6/7/8 Plus */
+@media only screen 
+  and (min-width: 414px) 
+  and (orientation: portrait) {
+  .services {
+    left: -0.5rem !important;
+ }
+}
+
+/* iPhone 6/7/8 Plus */
+@media only screen 
+  and (min-width: 414px)
+  and (orientation: portrait) {
+  .contact {
+    margin-right: 2.35rem;
+    left: 0.3rem !important;
+ }
+}
+
+/* 535px device */
+@media only screen 
+  and (min-width: 535px) 
+  and (orientation: portrait) {
+  .home {
+    left: -0.65rem;
+    margin-left: 3rem;   
+ }
+}
+
+/* 535px device */
+@media only screen 
+  and (min-width: 535px) 
+  and (orientation: portrait) {
+  .about {
+    right: 1rem;
+ }
+}
+
+/* 535px device */
+@media only screen 
+  and (min-width: 535px) 
+  and (orientation: portrait) {
+  .services {
+    right: 0.7rem;
+ }
+}
+
+/* 535px device */
+@media only screen 
+  and (min-width: 535px) 
+  and (orientation: portrait) {
+  .contact {
+    margin-right: 2.65rem;
+    right: 1.5rem;
+ }
+}
+
+/* 650px device */
+@media only screen 
+  and (min-width: 650px) 
+  and (orientation: portrait) {
+  .home {
+    left: -0.25rem;
+    margin-left: 1.9rem !important  
+ }
+}
+
+/* 650px device */
+@media only screen 
+  and (min-width: 650px) 
+  and (orientation: portrait) {
+  .about {
+    right: 1rem;
+ }
+}
+
+/* 650px device */
+@media only screen 
+  and (min-width: 650px) 
+  and (orientation: portrait) {
+  .services {
+    right: 0.7rem;
+ }
+}
+
+/* 650px device */
+@media only screen 
+  and (min-width: 650px) 
+  and (orientation: portrait) {
+  .contact {
+    margin-right: 3.4rem !important;
+    left: -4rem;
+ }
+}
+
+/* iPad, iPad Air, iPad Mini, iPad Pro 9" */ 
+@media only screen 
+  and (min-width: 768px) 
+  and (orientation: portrait) {
+  .home {
+    margin-left: 5rem;
+  }
+}
+
+/* iPad, iPad Air, iPad Mini, iPad Pro 9" */ 
+@media only screen 
+  and (min-width: 768px) 
+  and (orientation: portrait) {
+  .about {
+    left: -1.4rem;
+ }
+}
+
+/* iPad, iPad Air, iPad Mini, iPad Pro 9" */
+@media only screen 
+  and (min-width: 768px) 
+  and (orientation: portrait) {
+  .services {
+    left: -3.25rem;
+ }
+}
+
+/* iPad, iPad Air, iPad Mini, iPad Pro 9" */ 
+@media only screen 
+  and (min-width: 768px)
+  and (orientation: portrait) {
+  .contact {
+    margin-right: 4rem !important; 
+    left: -2.5rem;
+ }
+}
+
+/* iPad Pro 10" */
+@media only screen 
+  and (min-width: 834px) 
+  and (orientation: portrait) {
+  .home {
+    margin-left: 5rem;
+  }
+}
+
+/* iPad Pro 10" */
+@media only screen 
+  and (min-width:  834px) 
+  and (orientation: portrait) {
+  .about {
+    right: 2.5rem
+ }
+}
+
+/* iPad Pro 10" */
+@media only screen 
+  and (min-width:  834px) 
+  and (orientation: portrait) {
+  .services {
+    right: 3rem
+ }
+}
+
+/* iPad Pro 10" */
+@media only screen 
+  and (min-width:  834px)
+  and (orientation: portrait) {
+  .contact {
+    margin-right: 5rem;
+    right: 4.75rem;
+ }
+}
+
+/* 934px device */ 
+@media only screen 
+  and (min-width: 934px) 
+  and (orientation: portrait) {
+  .home {
+    margin-left: 2rem !important;
+  }
+}
+
+/* 934px device */
+@media only screen 
+  and (min-width:  934px) 
+  and (orientation: portrait) {
+  .about {
+    right: 2.5rem
+ }
+}
+
+/* 934px device */
+@media only screen 
+  and (min-width:  934px) 
+  and (orientation: portrait) {
+  .services {
+    right: 3rem
+ }
+}
+
+/* 934px device */ 
+@media only screen 
+  and (min-width:  934px)
+  and (orientation: portrait) {
+  .contact {
+    margin-right: 5rem;
+    right: 4.75rem;
+ }
+}
+
+/* iPad Pro */
+@media only screen 
+  and (min-width: 1024px) 
+  and (orientation: portrait) {
+  .home {
+    margin-left: 13%;
+    left: -0rem;
+ }
+}
+
+/* iPad Pro */
+@media only screen 
+  and (min-width: 1024px) 
+  and (orientation: portrait) {
+  .about {
+   left: -2rem
+ }
+}
+
+/* iPad Pro */
+@media only screen 
+  and (min-width: 1024px) 
+  and (orientation: portrait) {
+  .services {
+    left: -1rem !important;
+ }
+}
+
+/* iPad Pro */
+@media only screen 
+  and (min-width: 1024px)
+  and (orientation: portrait) {
+  .contact {
+    margin-right: 3rem;
+    left: -1rem !important;
+ }
+}
+
+/*!!!!!!!!!!!!!!!!!!!!LANDSCAPES!!!!!!!!!!!!!!!!!!!!*/
+
+/* Smallest phone */
+@media only screen 
+  and (min-width: 320px) 
+  and (orientation: landscape) {
+  .home {
+    margin-left: 2rem;
+ }
+}
+
+/* Smallest phone */
+@media only screen 
+  and (min-width: 320px) 
+  and (orientation:landscape) {
+  .about {
+    right: 4px;
+ }
+}
+
+/* Smallest phone */
+@media only screen 
+  and (min-width:  320px) 
+  and (orientation: landscape) {
+  .services {
+    left: -0.1rem;
+ }
+}
+
+/* Smallest phone */
+@media only screen 
+  and (min-width: 320px) 
+  and (orientation: landscape) {
+  .contact {
+    margin-right: 2.65rem;
+    right: 0.25rem;
+ }
+}
+
+/* iPhone SE */ 
+@media only screen 
+  and (min-width: 568px) 
+  and (orientation:landscape) {
+  .home {
+    left: 0.5rem;
+    margin-left: 0.5rem !important;
+ }
+}
+
+/* iPhone SE */
+@media only screen 
+  and (min-width: 568px) 
+  and (orientation: landscape) {
+  .about {
+    left: -0.5rem;
+ }
+}
+
+/* iPhone SE */ 
+@media only screen 
+  and (min-width:  568px) 
+  and (orientation: landscape) {
+  .services {
+    left: -0.25rem;
+ }
+}
+
+/* iPhone SE */ 
+@media only screen 
+  and (min-width: 568px) 
+  and (orientation: landscape) {
+  .contact {
+    margin-right: 1rem;
+    left: -0.25rem;
+ }
+}
+
+/* iPhone 6/7/8 */ 
+@media only screen 
+  and (min-width: 667px) 
+  and (orientation: landscape) {
+  .home {
+    left: -2rem;
+    margin-left: 3rem !important;
+ }
+}
+
+/* iPhone 6/7/8 */ 
+@media only screen 
+  and (min-width: 667px) 
+  and (orientation: landscape) {
+  .about {
+    left: -2.3rem;
+ }
+}
+
+/* iPhone 6/7/8 */ 
+@media only screen 
+  and (min-width:  667px) 
+  and (orientation: landscape) {
+  .services {
+    left: -1rem;
+ }
+}
+
+/* iPhone 6/7/8 */
+@media only screen 
+  and (min-width: 667px) 
+  and (orientation:landscape) {
+  .contact {
+    margin-right: 3rem;
+    left: 0rem;
+ }
+}
+
+/* iPhone 6/7/8 Plus */
+@media only screen 
+  and (min-width:  736px) 
+  and (orientation: landscape) {
+  .home {
+    left: -5rem;
+    margin-left: 6rem !important;
+ }
+}
+
+/* iPhone 6/7/8 Plus */
+@media only screen 
+  and (min-width:  736px) 
+  and (orientation: landscape) {
+  .about {
+    left: -4rem;
+ }
+}
+
+/* iPhone 6/7/8 Plus */
+@media only screen 
+  and (min-width:  736px) 
+  and (orientation: landscape) {
+  .services {
+    left: -1.5rem;
+ }
+}
+
+/* iPhone 6/7/8 Plus */
+@media only screen 
+  and (min-width: 736px) 
+  and (orientation:landscape) {
+  .contact {
+    margin-right: 2.8rem !important;
+    left: 0.4rem;
+ }
+}
+
+/* iPhone X */
+@media only screen 
+  and (min-width: 812px) 
+  and (orientation: landscape) {
+  .home {
+    left: 4rem;
+    margin-left: -3rem !important;
+ }
+}
+
+/* iPhone X */
+@media only screen 
+  and (min-width: 812px) 
+  and (orientation: landscape) {
+  .about {
+    left: 2.25rem;
+ }
+}
+
+/* iPhone X */
+@media only screen 
+  and (min-width: 812px) 
+  and (orientation: landscape) {
+  .services {
+    left: 2.75rem;
+ }
+}
+
+/* iPhone X */
+@media only screen 
+  and (min-width: 812px)  
+  and (orientation:landscape) {
+  .contact {
+    margin-right: 5rem !important;
+    left: 2.5rem;
+ }
+}
+
+/* 922px Device */ 
+@media only screen 
+  and (min-width: 922px)  
+  and (orientation: landscape) {
+  .home {
+     margin-left: -3rem !important;
+     left: 4.8rem;
+ }
+}
+
+/* 922px Device */ 
+@media only screen 
+  and (min-width: 922px)  
+  and (orientation: landscape) {
+  .about {
+    left: 2.25rem;
+ }
+}
+
+/* 922px Device */ 
+@media only screen 
+  and (min-width: 922px)  
+  and (orientation: landscape) {
+  .services {
+     left: 2rem;
+ }
+}
+
+/* 922px Device */ 
+@media only screen 
+  and (min-width: 922px)  
+  and (orientation:landscape) {
+  .contact {
+    margin-right: 5rem !important;
+    left: 1rem;
+ }
+}
+
+/* iPad, iPad Air, iPad Mini, iPad Pro 9" */
+@media only screen 
+  and (min-width: 1024px) 
+  and (orientation: landscape) {
+  .home {
+    left: 5rem;
+    margin-left: -2rem !important;
+ }
+}
+
+/* iPad, iPad Air, iPad Mini, iPad Pro 9" */
+@media only screen 
+  and (min-width: 1024px) 
+  and (orientation: landscape) {
+  .about {
+    left: 4rem;
+ }
+}
+
+/* iPad, iPad Air, iPad Mini, iPad Pro 9" */
+@media only screen 
+  and (min-width: 1024px) 
+  and (orientation: landscape) {
+  .services {
+   left: 4.5rem;
+ }
+}
+
+/* iPad, iPad Air, iPad Mini, iPad Pro 9" */
+@media only screen 
+  and (min-width: 1024px)
+  and (orientation: landscape) {
+  .contact {
+     margin-right: 10rem !important;
+    left: 5rem;
+ }
+}
+
+/* iPad Pro 10" */
+@media only screen 
+  and (min-width: 1112px) 
+  and (orientation: landscape) {
+  .home {
+    left: 5rem;
+    margin-left: -2rem !important;
+ }
+}
+
+/* iPad Pro 10" */
+@media only screen 
+  and (min-width: 1112px) 
+  and (orientation: landscape) {
+  .about {
+    left: 3.5rem;
+ }
+}
+
+/* iPad Pro 10" */
+@media only screen 
+  and (min-width: 1112px) 
+  and (orientation: landscape) {
+  .services {
+   left: 4.5rem;
+ }
+}
+
+/* iPad Pro 10" */
+@media only screen 
+  and (min-width: 1112px)
+  and (orientation: landscape) {
+  .contact {
+    margin-right: 10rem !important;
+    left: 5rem;
+ }
+}
+
+/* HD laptops (768p) */
+@media only screen 
+  and (min-width: 1366px) 
+  and (orientation: landscape) {
+  .home {
+    left: -4rem;
+    margin-left: 6rem !important;
+ }
+}
+
+/* HD laptops (768p) */
+@media only screen 
+  and (min-width: 1366px) 
+  and (orientation: landscape) {
+  .about {
+    left: -3rem;
+ }
+}
+
+/* HD laptops (768p) */
+@media only screen 
+  and (min-width: 1366px) 
+  and (orientation: landscape) {
+  .services {
+   left: 1rem;
+ }
+}
+
+/* HD laptops (768p) */
+@media only screen 
+  and (min-width: 1366px)
+  and (orientation: landscape) {
+  .contact {
+    margin-right: 8.5rem !important;
+    left: 4rem;
+ }
+}
+
+/* Laptop with HiDPI Screen */
+@media only screen 
+  and (min-width: 1440px) 
+  and (orientation: landscape) {
+  .home {
+    left: 4rem;
+    margin-left: -2rem !important;
+ }
+}
+
+/* Laptop with HiDPI Screen */
+@media only screen 
+  and (min-width: 1440px) 
+  and (orientation: landscape) {
+  .about {
+    left: 2.5rem;
+ }
+}
+
+/* Laptop with HiDPI Screen */
+@media only screen 
+  and (min-width: 1440px) 
+  and (orientation: landscape) {
+  .services {
+   left: 3.5rem;
+ }
+}
+
+/* Laptop with HiDPI Screen */
+@media only screen 
+  and (min-width: 1440px)
+  and (orientation: landscape) {
+  .contact {
+    margin-right: 9rem !important;
+    left: 4rem;
+ }
+}
+
+/* 13" MacBook Pro (1.5x scaling) */
+@media only screen 
+  and (min-width: 1680px) 
+  and (orientation: landscape) {
+  .home {
+    left: 4.5rem;
+    margin-left: -2rem !important;
+ }
+}
+
+/* 13" MacBook Pro (1.5x scaling) */
+@media only screen 
+  and (min-width: 1680px) 
+  and (orientation: landscape) {
+  .about {
+    left: 2.5rem;
+ }
+}
+
+/* 13" MacBook Pro (1.5x scaling) */
+@media only screen 
+  and (min-width: 1680px) 
+  and (orientation: landscape) {
+  .services {
+   left: 4rem;
+ }
+}
+
+/* 13" MacBook Pro (1.5x scaling) */
+@media only screen 
+  and (min-width: 1680px)
+  and (orientation: landscape) {
+  .contact {
+    margin-right: 10rem !important;
+    left: 4rem;
+ }
+}
+
+/* 1080p displays */
+@media only screen 
+  and (min-width: 1920px) 
+  and (orientation: landscape) {
+  .home {
+    left: 4.5rem;
+    margin-left: -2rem !important;
+ }
+}
+
+/* 1080p displays */
+@media only screen 
+  and (min-width: 1920px) 
+  and (orientation: landscape) {
+  .about {
+    left: 2.5rem;
+ }
+}
+
+/* 1080p displays */
+@media only screen 
+  and (min-width: 1920px) 
+  and (orientation: landscape) {
+  .services {
+   left: 4rem;
+ }
+}
+
+/* 1080p displays */
+@media only screen 
+  and (min-width: 1920px)
+  and (orientation: landscape) {
+  .contact {
+    margin-right: 10rem !important;
+    left: 4rem;
+ }
+}

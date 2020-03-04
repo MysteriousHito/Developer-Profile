@@ -1,0 +1,287 @@
+/*!!!!!!!!!!!!!!!!!!!!PORTRAITS!!!!!!!!!!!!!!!!!!!!!!!*/
+
+/* Smallest phone */
+@media only screen 
+  and (min-width: 180px) 
+  and (orientation: portrait) {
+  .home, .about, .services, .contact {
+    font-size: 0.53rem;
+    bottom: -0.7rem;
+    margin-top: -0.5rem;
+  }
+}
+
+/* iPhone SE */
+@media only screen 
+  and (min-width: 320px) 
+  and (orientation: portrait) {
+  .home, .about, .services, .contact {
+    margin: -10px auto 0;
+    font-size: 0.95rem;
+    width: 2.85rem;
+    bottom: -0.25rem;
+    margin-top: 1.5rem;
+  }
+}
+
+/* iPhone 6/7/8 and iPhone X */ 
+@media only screen 
+  and (min-width: 375px) 
+  and (orientation: portrait) {
+  .home, .about, .services, .contact {
+    margin: 0px auto 0;    
+    font-size: 1.1rem;
+    bottom: 0.1rem;
+    width: 2.85rem;
+    margin-top: 2rem !important;
+  }
+}
+
+/* iPhone 6/7/8 Plus */
+@media only screen 
+  and (min-width: 414px) 
+  and (orientation: portrait) {
+  .home, .about, .services, .contact {
+    margin: 0px auto 0;    
+    font-size: 1.2rem;
+    bottom: 0.25rem;
+    width: 2.85rem;
+    margin-top: 2.5rem !important;
+  }
+}
+
+/* 535px device */
+@media only screen 
+  and (min-width: 535px) 
+  and (orientation: portrait) {
+  .home, .about, .services, .contact {
+    margin: 0px auto 0;    
+    font-size: 1.25rem;
+    width: 2.85rem;
+    margin-top: 2.5rem !important;
+  }
+}
+
+/* 650px device */ 
+@media only screen 
+  and (min-width: 650px)
+  and (orientation: portrait) {
+  .home, .about, .services, .contact {
+    margin: 0px auto 0;    
+    font-size: 1.35rem;
+    width: 2.85rem;
+    margin-top: 2.5rem !important;
+  }
+}
+
+/* iPad, iPad Air, iPad Mini, iPad Pro 9" */ 
+@media only screen 
+  and (min-width: 768px) 
+  and (orientation: portrait) {
+  .home, .about, .services, .contact {
+    margin: 0px auto 0;    
+    font-size: 1.5rem;
+    width: 2.85rem;
+    margin-top: 3.75rem !important;
+  }
+}
+
+/* iPad Pro 10" */
+@media only screen 
+  and (min-width: 834px) 
+  and (orientation: portrait) {
+  .home, .about, .services, .contact {
+    margin: 0px auto 0;    
+    font-size: 1.5rem;
+    width: 2.85rem;
+    margin-top: 4.25rem;
+  }
+}
+
+/* 934px device */ 
+@media only screen 
+  and (min-width: 934px) 
+  and (orientation: portrait) {
+  .home, .about, .services, .contact {
+    margin: -10px auto 0;
+    font-size: 1.65rem;
+    width: 2.85rem;
+    bottom: 0.6rem;
+    margin-top: 6.5rem;
+  }
+}
+
+/* iPad Pro */
+@media only screen 
+  and (min-width: 1024px) 
+  and (orientation: portrait) {
+  .home, .about, .services, .contact {
+    margin: -10px auto 0;
+    font-size: 1.7rem;
+    width: 2.85rem;
+    margin-top: 5.5rem !important;
+  }
+}
+
+/*!!!!!!!!!!!!!!!!!!!!LANDSCAPES!!!!!!!!!!!!!!!!!!!!!!!*/
+
+/* Smallest phone */
+@media only screen 
+  and (min-width: 320px) 
+  and (orientation: landscape) {
+  .home, .about, .services, .contact {
+    margin: -10px auto 0;
+    font-size: 0.535rem;
+    width: 2.85rem;
+    top: 1rem;
+  }
+}
+
+/* iPhone SE */
+@media only screen 
+  and (min-width: 568px) 
+  and (orientation: landscape) {
+  .home, .about, .services, .contact {
+    margin: -10px auto 0;
+    font-size: 0.9rem;
+    width: 2.85rem;
+    top: 0.5rem;
+    margin-top: 0.35rem;
+  }
+}
+
+/* iPhone 6, 7, 8 */
+@media only screen 
+  and (min-width: 667px) 
+  and (orientation: landscape) {
+  .home, .about, .services, .contact {
+    margin: 0px auto 0;    
+    font-size: 1.05rem;
+    width: 2.85rem;
+    margin-top: 0.25rem;
+  }
+}
+
+/* iPhone 6, 7, 8 Plus */
+@media only screen 
+  and (min-width: 736px) 
+  and (orientation:  landscape) {
+  .home, .about, .services, .contact {
+    margin: 0px auto 0;    
+    font-size: 1.2rem;
+    width: 2.85rem;
+    top: 0.1rem;
+    margin-top: 1rem;
+  }
+}
+
+/* iPhone X */
+@media only screen 
+  and (min-width: 812px) 
+  and (orientation: landscape) {
+  .home, .about, .services, .contact {
+    margin: 0px auto 0;    
+    font-size: 1.2rem;
+    width: 2.85rem;
+    margin-top: 0rem;
+  }
+}
+
+/* 922px Device */ 
+@media only screen 
+  and (min-width: 922px) 
+  and (orientation: landscape) {
+  .home, .about, .services, .contact {
+    margin: 0px auto 0;    
+    font-size: 1.3rem;
+    top: 0rem;
+    width: 2.85rem;
+    margin-top: 2.65rem;
+  }
+}
+
+/* iPad, iPad Air, iPad Mini, iPad Pro 9" */
+@media only screen 
+  and (min-width: 1024px) 
+  and (orientation: landscape) {
+  .home, .about, .services, .contact {
+    top: -0.25rem;
+    font-size: 1.5rem;
+    width: 2.85rem;
+    margin-top: 2.25rem;
+  }
+}
+
+/* iPad Pro 10" */
+@media only screen 
+  and (min-width: 1112px) 
+  and (orientation: landscape) {
+  .home, .about, .services, .contact {
+    font-size: 1.5rem;
+    width: 2.85rem;
+    margin-top: 2.75rem;
+  }
+}
+
+/* HD laptops (768p) */
+@media only screen 
+  and (min-width: 1366px) 
+  and (orientation: landscape) {
+  .home, .about, .services, .contact {
+    font-size: 1.6rem;
+    width: 2.85rem;
+    margin-top: 2.75rem;
+  }
+}
+
+/* Laptop with HiDPI Screen */
+@media only screen 
+  and (min-width:  1440px) 
+  and (orientation: landscape) {
+  .home, .about, .services, .contact {
+    font-size: 1.65rem;
+    width: 2.85rem;
+    top: -0.25rem !important;
+    margin-top: 3.75rem;
+  }
+}
+
+/* 13" MacBook Pro (1.5x scaling) */
+@media only screen 
+  and (min-width:  1680px) 
+  and (orientation: landscape) {
+  .home, .about, .services, .contact {
+    font-size: 1.8rem;
+    width: 2.85rem;
+    margin-top: 3.75rem;
+  }
+}
+
+/* 1080p displays */
+@media only screen 
+  and (min-width: 1920px) 
+  and (orientation: landscape) {
+  .home, .about, .services, .contact {
+    font-size: 1.8rem;
+    width: 2.85rem;
+    margin-top: 3.75rem;
+  }
+}
+
+/*!!!!!!!!!!!!!!!!!!!!START OF NAV!!!!!!!!!!!!!!!!!!!!!!!*/
+
+@media only screen 
+  and (min-width: 180px) 
+  and (orientation: landscape) {
+  nav {
+    margin: 0px auto 0;
+  }
+}
+
+@media only screen 
+  and (min-width: 180px) 
+  and (orientation: portrait) {
+  nav {
+    margin: 0px auto 0 ;  
+  }
+}

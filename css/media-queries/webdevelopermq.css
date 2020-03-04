@@ -1,0 +1,225 @@
+/*!!!!!!!!!!!!!!!!!!!!PORTRAITS!!!!!!!!!!!!!!!!!!!!*/
+
+
+/* Smallest phone */
+@media only screen 
+  and (min-width: 180px) 
+  and (orientation: portrait) {
+  .wd {
+    font-size: 0.7rem;
+    margin-bottom: 2.5rem;
+  }
+}
+
+/* iPhone SE */ 
+@media only screen 
+  and (min-width: 320px) 
+  and (orientation: portrait) {
+  .wd {
+    font-size: 1.05rem;
+    margin-bottom: -2.5rem;
+  }
+}
+
+/* iPhone 6/7/8 and iPhone X */ 
+@media only screen 
+  and (min-width: 375px) 
+  and (orientation: portrait) {
+  .wd {
+    font-size: 1.25rem;
+    margin-bottom: -3rem;
+  }
+}
+
+/* iPhone 6/7/8 Plus */
+@media only screen 
+  and (min-width: 414px) 
+  and (orientation: portrait) {
+  .wd {
+    font-size: 1.3rem;
+    margin-bottom: -3rem;
+  }
+}
+
+/* 535px device */
+@media only screen 
+  and (min-width: 535px) 
+  and (orientation: portrait) {
+  .wd {
+    font-size: 1.4rem;
+    margin-bottom: -3rem;
+  }
+}
+
+/* 650px device */
+@media only screen 
+  and (min-width: 650px) 
+  and (orientation: portrait) {
+  .wd {
+    font-size: 1.5rem;
+    margin-bottom: -4rem;
+  }
+}
+
+/* iPad, iPad Air, iPad Mini, iPad Pro 9" */ 
+@media only screen 
+  and (min-width: 768px) 
+  and (orientation: portrait) {
+  .wd {
+    font-size: 1.6rem;
+    margin-bottom: -4rem;
+  }
+}
+
+/* iPad Pro 10" */
+@media only screen 
+  and (min-width: 834px) 
+  and (orientation: portrait) {
+  .wd {
+    font-size: 1.7rem;
+    margin-bottom: -4rem;
+  }
+}
+
+/* 934px device */ 
+@media only screen 
+  and (min-width: 934px) 
+  and (orientation: portrait) {
+  .wd {
+    font-size: 1.8rem;
+    margin-bottom: -4rem;
+  }
+}
+
+/* iPad Pro */
+@media only screen 
+  and (min-width: 1024px) 
+  and (orientation: portrait) {
+  .wd {
+    font-size: 1.9rem;
+    margin-bottom: -5rem;
+  }
+}
+
+
+/*!!!!!!!!!!!!!!!!!!!!LANDSCAPES!!!!!!!!!!!!!!!!!!!!*/
+
+/* Smallest phone */
+@media only screen 
+  and (min-width: 320px) 
+  and (orientation: landscape) {
+  .wd {
+    font-size: 0.7rem;
+    margin-bottom: 2rem;
+  }
+}
+
+/* iPhone SE */ 
+@media only screen 
+  and (min-width: 568px) 
+  and (orientation: landscape) {
+  .wd {
+    font-size: 0.9rem;
+    margin-bottom: 1rem;
+  }
+}
+
+/* iPhone 6/7/8 */ 
+@media only screen 
+  and (min-width: 667px) 
+  and (orientation: landscape) {
+  .wd {
+    font-size: 1rem;
+    margin-bottom: -3rem;
+  }
+}
+
+/* iPhone 6/7/8 Plus */
+@media only screen 
+  and (min-width: 736px) 
+  and (orientation: landscape) {
+  .wd {
+    font-size: 1.25rem;
+    margin-bottom: -3.5rem;
+  }
+}
+
+/* iPhone X */
+@media only screen 
+  and (min-width: 812px) 
+  and (orientation: landscape) {
+  .wd {
+    font-size: 1.25rem;
+    margin-bottom: -4.5rem;
+  }
+}
+
+/* 922px Device */ 
+@media only screen 
+  and (min-width: 922px) 
+  and (orientation: landscape) {
+  .wd {
+    font-size: 1.3rem;
+    margin-bottom: -3.5rem;
+  }
+}
+
+/* iPad, iPad Air, iPad Mini, iPad Pro 9" */
+@media only screen 
+  and (min-width: 1024px) 
+  and (orientation: landscape) {
+  .wd {
+    font-size: 1.55rem;
+    margin-bottom: -3.5rem;
+  }
+}
+
+/* iPad Pro 10" */
+@media only screen 
+  and (min-width: 1112px) 
+  and (orientation: landscape) {
+  .wd {
+    font-size: 1.6rem;
+    margin-bottom: -3.5rem;
+  }
+}
+
+/* HD laptops (768p) */
+@media only screen 
+  and (min-width: 1366px) 
+  and (orientation: landscape) {
+  .wd {
+    font-size: 1.65rem;
+    margin-bottom: -4.5rem;
+  }
+}
+
+/* Laptop with HiDPI Screen */
+@media only screen 
+  and (min-width: 1440px) 
+  and (orientation: landscape) {
+  .wd {
+    font-size: 1.7rem;
+    margin-bottom: -5rem;
+  }
+}
+
+/* 13" MacBook Pro (1.5x scaling) */
+@media only screen 
+  and (min-width: 1680px) 
+  and (orientation: landscape) {
+  .wd {
+    font-size: 1.75rem;
+    margin-bottom: -5rem;
+  }
+}
+
+/* 1080p displays */
+@media only screen 
+  and (min-width: 1920px) 
+  and (orientation: landscape) {
+  .wd {
+    font-size: 1.9rem;
+    margin-bottom: -9%;
+  }
+}
