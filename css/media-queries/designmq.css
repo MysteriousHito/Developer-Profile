@@ -209,7 +209,7 @@
   and (min-width: 1680px)  
   and (orientation: landscape) {
   .design {
-    font-size: 3.75rem;
+    font-size: 3.5rem;
    margin-top: 8rem !important;
   }
 }
@@ -218,7 +218,7 @@
   and (min-width: 1920px)  
   and (orientation: landscape) {
   .design {
-    font-size: 3rem;
+    font-size: 3.5rem;
     margin-top: 8rem !important;
   }
 }

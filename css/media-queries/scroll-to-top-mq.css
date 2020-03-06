@@ -4,10 +4,16 @@
 @media only screen 
   and (min-width: 180px) 
   and (orientation: portrait) {
-  .downarrow {
-    height: 3.25rem;
-    width: 3.25rem;
-    margin-top: 0.5rem;
+  #button {
+    height: 1.5rem;
+    width: 1.5rem;
+    font-size: 0.5rem;
+    margin-right: -1rem;
+    margin-bottom: -0.85rem;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: space-around !important;
+    
   }
 }
 
@@ -15,11 +21,10 @@
 @media only screen 
   and (min-width: 320px) 
   and (orientation: portrait) {
-  .downarrow {
-    height: 4rem;
-    width: 4rem;
-    margin-top: 3rem;
-
+  #button {
+    height: 2.25rem;
+    width: 2.25rem;
+    font-size: 0.8rem;
   }
 }
 
@@ -27,11 +32,10 @@
 @media only screen 
   and (min-width: 375px) 
   and (orientation: portrait) {
-  .downarrow {
-    height: 4.25rem;
-    width: 4.25rem;
-    margin-top: 4rem;
-
+  #button {
+    height: 2.4rem;
+    width: 2.4rem;
+    font-size: 0.8rem;
   }
 }
 
@@ -40,11 +44,10 @@
 @media only screen 
   and (min-width: 414px) 
   and (orientation: portrait) {
-  .downarrow {
-    height: 4.35rem;
-    width: 4.35rem;
-    margin-bottom: 7%;
-
+  #button {
+    height: 2.6rem;
+    width: 2.6rem;
+    font-size: 0.8rem;
   }
 }
 
@@ -52,11 +55,10 @@
 @media only screen 
   and (min-width: 535px) 
   and (orientation: portrait) {
-  .downarrow {
-    height: 4.5rem;
-    width: 4.5rem;
-    margin-bottom: 7%;
-
+  #button {
+    height: 2.8rem;
+    width: 2.8rem;
+    font-size: 0.9rem;
   }
 }
 
@@ -64,11 +66,10 @@
 @media only screen 
   and (min-width: 650px) 
   and (orientation: portrait) {
-  .downarrow {
-    height: 4.5rem;
-    width: 4.5rem;
-    margin-bottom: 7%;
-
+  #button {
+    height: 2.8rem;
+    width: 2.8rem;
+    font-size: 0.9rem;
   }
 }
 
@@ -76,10 +77,10 @@
 @media only screen 
   and (min-width: 768px) 
   and (orientation: portrait) {
-  .downarrow {
-    height: 4.6rem;
-    width: 4.6rem;
-    margin-top: 10rem;
+  #button {
+    height: 2.8rem;
+    width: 2.8rem;
+    font-size: 0.9rem;
    }
 }
 
@@ -87,11 +88,10 @@
 @media only screen 
   and (min-width: 834px) 
   and (orientation: portrait) {
-  .downarrow {
-    height: 4.7rem;
-    width: 4.7rem;
-    margin-top: 10rem;
-
+  #button {
+    height: 3rem;
+    width: 3rem;
+    font-size: 1rem;
   }
 }
 
@@ -99,11 +99,10 @@
 @media only screen 
   and (min-width: 934px) 
   and (orientation: portrait) {
-  .downarrow {
-    height: 4.8rem;
-    width: 4.8rem;
-    margin-top: 12.5rem;
-
+  #button {
+    height: 3rem;
+    width: 3rem;
+    font-size: 1rem;
   }
 }
 
@@ -111,10 +110,10 @@
 @media only screen 
   and (min-width: 1024px) 
   and (orientation: portrait) {
-  .downarrow {
-    height: 5rem;
-    width: 5rem;
-    margin-top: 12.5rem;
+  #button {
+    height: 3rem;
+    width: 3rem;
+    font-size: 1rem;
   }
 }
 
@@ -124,11 +123,16 @@
 @media only screen 
   and (min-width: 320px) 
   and (orientation: landscape) {
-  .downarrow {
-    height: 2.9rem;
-    width: 2.9rem;
-    margin-top: -0.75rem;
-
+  #button {
+    height: 1.5rem;
+    width: 1.5rem;
+    font-size: 0.6rem;
+    margin-right: -1rem;
+    margin-bottom: -0.85rem;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: space-around !important;
+    
   }
 }
 
@@ -136,10 +140,10 @@
 @media only screen 
   and (min-width: 568px) 
   and (orientation: landscape) {
-  .downarrow {
-    height: 3.65rem;
-    width: 3.65rem;
-    margin-top: 0rem;
+  #button {
+    height: 2.25rem;
+    width: 2.25rem;
+    font-size: 0.8rem;
   }
 }
 
@@ -147,10 +151,10 @@
 @media only screen 
   and (min-width: 667px) 
   and (orientation: landscape) {
-  .downarrow {
-    height: 4rem;
-    width: 4rem;
-    margin-top: 0rem;
+  #button {
+    height: 2.4rem;
+    width: 2.4rem;
+    font-size: 0.8rem;
   }
 }
 
@@ -158,11 +162,10 @@
 @media only screen 
   and (min-width: 736px) 
   and (orientation: landscape) {
-  .downarrow {
-    height: 4rem;
-    width: 4rem;
-    margin-top: -0.5rem;
-
+  #button {
+    height: 2.6rem;
+    width: 2.6rem;
+    font-size: 0.8rem;
   }
 }
 
@@ -170,11 +173,10 @@
 @media only screen 
   and (min-width: 812px) 
   and (orientation: landscape) {
-  .downarrow {
-    height: 4rem;
-    width: 4rem;
-    margin-top: -1rem;
-
+  #button {
+    height: 2.8rem;
+    width: 2.8rem;
+    font-size: 0.9rem;
   }
 }
 
@@ -182,11 +184,10 @@
 @media only screen 
   and (min-width: 922px) 
   and (orientation: landscape) {
-  .downarrow {
-    height: 4.25rem;
-    width: 4.25rem;
-    margin-top: 2rem;
-
+  #button {
+    height: 2.8rem;
+    width: 2.8rem;
+    font-size: 0.9rem;
   }
 }
 
@@ -194,11 +195,10 @@
 @media only screen 
   and (min-width: 1024px) 
   and (orientation: landscape) {
-  .downarrow {
-    height: 4.3rem;
-    width: 4.3rem;
-    margin-top: 4rem;
-
+  #button {
+    height: 2.8rem;
+    width: 2.8rem;
+    font-size: 0.9rem; 
   }
 }
 
@@ -206,10 +206,10 @@
 @media only screen 
   and (min-width: 1112px) 
   and (orientation: landscape) {
-  .downarrow {
-    height: 4.35rem;
-    width: 4.35rem;
-    margin-top: 4.5rem;
+  #button {
+    height: 3rem;
+    width: 3rem;
+    font-size: 1rem;
   }
 }
 
@@ -217,11 +217,10 @@
 @media only screen 
   and (min-width: 1366px) 
   and (orientation: landscape) {
-  .downarrow {
-    height: 4.4rem;
-    width: 4.4rem;
-    margin-top: 3rem;
-
+  #button {
+    height: 2.8rem;
+    width: 2.8rem;
+    font-size: 0.9rem; 
   }
 }
 
@@ -229,10 +228,10 @@
 @media only screen 
   and (min-width: 1440px) 
   and (orientation: landscape) {
-  .downarrow {
-    height: 4.5rem;
-    width: 4.5rem;
-    margin-top: 2rem;
+  #button {
+    height: 3rem;
+    width: 3rem;
+    font-size: 1rem;
   }
 }
 
@@ -240,11 +239,10 @@
 @media only screen 
   and (min-width: 1680px) 
   and (orientation: landscape) {
-  .downarrow {
-    height: 4.75rem;
-    width: 4.75rem;
-    margin-top: 6rem;
-
+  #button {
+    height: 3rem;
+    width: 3rem;
+    font-size: 1rem;
   }
 }
 
@@ -252,10 +250,9 @@
 @media only screen 
   and (min-width: 1920px) 
   and (orientation: landscape) {
-  .downarrow {
-    height: 4.75rem;
-    width: 4.75rem;
-    margin-top: 6rem;
-
+  #button {
+    height: 3rem;
+    width: 3rem;
+    font-size: 1rem;
   }
 }

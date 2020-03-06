@@ -219,7 +219,7 @@
   and (min-width: 1920px) 
   and (orientation: landscape) {
   .wd {
-    font-size: 1.9rem;
-    margin-bottom: -9%;
+    font-size: 1.75rem;
+    margin-bottom: -5rem;
   }
 }

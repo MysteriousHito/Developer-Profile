@@ -346,7 +346,7 @@ svg {
   position: relative;
 }
 
-.footer {
+/*.footer {
   display: flex;
   justify-content: center;
   align-items: flex-end;
@@ -369,7 +369,7 @@ footer {
   transition: all 1s ease-out;
   border-radius: 10%;
 }
-
+*/
 .home:hover, .about:hover, .services:hover, .contact:hover {
   color: #2A00FF;
   font-weight: bolder;
@@ -411,3 +411,4 @@ footer {
   opacity: 1;
   visibility: visible;
 }
+
