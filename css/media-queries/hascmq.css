@@ -1,16 +1,5 @@
 /*!!!!!!!!!!!!!!!!!!!!PORTRAITS!!!!!!!!!!!!!!!!!!!!!!!*/
 
-/* Smallest phone */
-@media only screen 
-  and (min-width: 180px) 
-  and (orientation: portrait) {
-  .home, .about, .services, .contact {
-    font-size: 0.53rem;
-    bottom: -0.7rem;
-    margin-top: -0.5rem;
-  }
-}
-
 /* iPhone SE */
 @media only screen 
   and (min-width: 320px) 
@@ -74,6 +63,16 @@
   }
 }
 
+@media only screen 
+  and (min-width: 720px)
+  and (min-height: 1300px)
+  and (orientation: portrait) {
+  .home, .about, .services, .contact {
+    font-size: 1.45rem;
+    top: 0rem;
+  }
+}
+
 /* iPad, iPad Air, iPad Mini, iPad Pro 9" */ 
 @media only screen 
   and (min-width: 768px) 
@@ -123,17 +122,29 @@
   }
 }
 
+@media only screen 
+  and (min-width: 1000px)
+  and (min-height: 1300px)
+  and (orientation: portrait) {
+  .home, .about, .services, .contact {
+    font-size: 1.7rem;
+    top: -0.3rem;
+  }
+}
+
+
 /*!!!!!!!!!!!!!!!!!!!!LANDSCAPES!!!!!!!!!!!!!!!!!!!!!!!*/
 
-/* Smallest phone */
+/* Smallest Browser Size */
 @media only screen 
   and (min-width: 320px) 
   and (orientation: landscape) {
   .home, .about, .services, .contact {
     margin: -10px auto 0;
-    font-size: 0.535rem;
+    font-size: 0.9rem;
     width: 2.85rem;
-    top: 1rem;
+    top: 0.5rem;
+     margin-top: 1.5rem;
   }
 }
 
@@ -146,7 +157,7 @@
     font-size: 0.9rem;
     width: 2.85rem;
     top: 0.5rem;
-    margin-top: 0.35rem;
+    margin-top: 0.5rem;
   }
 }
 
@@ -156,9 +167,10 @@
   and (orientation: landscape) {
   .home, .about, .services, .contact {
     margin: 0px auto 0;    
-    font-size: 1.05rem;
+    font-size: 1.2rem;
     width: 2.85rem;
-    margin-top: 0.25rem;
+    margin-top: 1rem;
+    top: 0.4rem;
   }
 }
 
@@ -170,7 +182,7 @@
     margin: 0px auto 0;    
     font-size: 1.2rem;
     width: 2.85rem;
-    top: 0.1rem;
+    top: 0.4rem;
     margin-top: 1rem;
   }
 }
@@ -183,7 +195,7 @@
     margin: 0px auto 0;    
     font-size: 1.2rem;
     width: 2.85rem;
-    margin-top: 0rem;
+    margin-top: 1rem;
   }
 }
 
@@ -239,7 +251,7 @@
   and (min-width:  1440px) 
   and (orientation: landscape) {
   .home, .about, .services, .contact {
-    font-size: 1.65rem;
+    font-size: 1.8rem;
     width: 2.85rem;
     top: -0.25rem !important;
     margin-top: 3.75rem;

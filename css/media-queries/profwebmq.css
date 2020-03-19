@@ -1,15 +1,5 @@
 /*!!!!!!!!!!!!!!!!!!!!PORTRAITS!!!!!!!!!!!!!!!!!!!!*/
 
-
-/* Smallest phone */
-@media only screen 
-  and (min-width: 180px) 
-  and (orientation: portrait) {
-  .profweb {
-    font-size: 0.55rem;
-  }
-}
-
 /* iPhone SE */
 @media only screen 
   and (min-width: 320px) 
@@ -42,7 +32,7 @@
   and (min-width: 535px) 
   and (orientation: portrait) {
   .profweb {
-   font-size: 1.35rem;
+   font-size: 1.1rem;
   }
 }
 
@@ -95,12 +85,12 @@
 /*!!!!!!!!!!!!!!!!!!!!LANDSCAPES!!!!!!!!!!!!!!!!!!!!*/
 
 
-/* Smallest phone */
+/* Smallest Browser Size */
 @media only screen 
   and (min-width: 320px) 
   and (orientation: landscape) {
   .profweb {
-   font-size: 0.5rem;
+   font-size: 0.7rem;
    
   }
 }

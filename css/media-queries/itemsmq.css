@@ -1,50 +1,12 @@
 /*!!!!!!!!!!!!!!!!!!!! PORTRAITS!!!!!!!!!!!!!!!!!!!!*/
 
-/* Smallest Phone */ 
-@media only screen 
-  and (min-width: 180px) 
-  and (orientation: portrait) {
-  .home {
-    margin-left: 2.25rem;
-    left: -1.55rem;
- }
-}
-
-/* Smallest phone */
-@media only screen 
-  and (min-width: 180px) 
-  and (orientation: portrait) {
-  .about {
-    left: -0.45rem;
- }
-}
-
-/* Smallest phone */
-@media only screen 
-  and (min-width: 180px) 
-  and (orientation: portrait) {
-  .services {
-    left: 0.8rem;
- }
-}
-
-/* Smallest phone */
-@media only screen 
-  and (min-width: 180px) 
-  and (orientation: portrait) {
-  .contact {
-    margin-right: 2.65rem;
-    left: 2rem;
- }
-}
-
 /* iPhone SE */ 
 @media only screen 
   and (min-width: 320px) 
   and (orientation: portrait) {
   .home {
     margin-left: 2rem !important;
-    right: 1rem;
+    right: 1.5rem;
  }
 }
 
@@ -378,7 +340,7 @@
 
 /*!!!!!!!!!!!!!!!!!!!!LANDSCAPES!!!!!!!!!!!!!!!!!!!!*/
 
-/* Smallest phone */
+/* Smallest Browser Size */
 @media only screen 
   and (min-width: 320px) 
   and (orientation: landscape) {
@@ -387,25 +349,25 @@
  }
 }
 
-/* Smallest phone */
+/* Smallest Browser Size */
 @media only screen 
   and (min-width: 320px) 
   and (orientation:landscape) {
   .about {
-    right: 4px;
+    right: 0.75rem;
  }
 }
 
-/* Smallest phone */
+/* Smallest Browser Size */
 @media only screen 
   and (min-width:  320px) 
   and (orientation: landscape) {
   .services {
-    left: -0.1rem;
+    left: -0.35rem;
  }
 }
 
-/* Smallest phone */
+/* Smallest Browser Size */
 @media only screen 
   and (min-width: 320px) 
   and (orientation: landscape) {
@@ -468,7 +430,7 @@
   and (min-width: 667px) 
   and (orientation: landscape) {
   .about {
-    left: -2.3rem;
+    left: -2.45rem;
  }
 }
 
@@ -477,7 +439,7 @@
   and (min-width:  667px) 
   and (orientation: landscape) {
   .services {
-    left: -1rem;
+    left: -1.25rem;
  }
 }
 
@@ -487,7 +449,7 @@
   and (orientation:landscape) {
   .contact {
     margin-right: 3rem;
-    left: 0rem;
+    left: -0.5rem;
  }
 }
 
@@ -506,7 +468,7 @@
   and (min-width:  736px) 
   and (orientation: landscape) {
   .about {
-    left: -4rem;
+    left: -4.5rem;
  }
 }
 
@@ -515,7 +477,7 @@
   and (min-width:  736px) 
   and (orientation: landscape) {
   .services {
-    left: -1.5rem;
+    left: -2rem;
  }
 }
 
@@ -724,7 +686,7 @@
   and (min-width: 1440px) 
   and (orientation: landscape) {
   .home {
-    left: 4rem;
+    left: 4.5rem;
     margin-left: -2rem !important;
  }
 }
@@ -743,7 +705,7 @@
   and (min-width: 1440px) 
   and (orientation: landscape) {
   .services {
-   left: 3.5rem;
+   left: 4rem;
  }
 }
 
@@ -752,7 +714,7 @@
   and (min-width: 1440px)
   and (orientation: landscape) {
   .contact {
-    margin-right: 9rem !important;
+    margin-right: 10rem !important;
     left: 4rem;
  }
 }

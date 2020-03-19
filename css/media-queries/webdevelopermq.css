@@ -1,16 +1,5 @@
 /*!!!!!!!!!!!!!!!!!!!!PORTRAITS!!!!!!!!!!!!!!!!!!!!*/
 
-
-/* Smallest phone */
-@media only screen 
-  and (min-width: 180px) 
-  and (orientation: portrait) {
-  .wd {
-    font-size: 0.7rem;
-    margin-bottom: 2.5rem;
-  }
-}
-
 /* iPhone SE */ 
 @media only screen 
   and (min-width: 320px) 
@@ -46,7 +35,7 @@
   and (min-width: 535px) 
   and (orientation: portrait) {
   .wd {
-    font-size: 1.4rem;
+    font-size: 1.3rem;
     margin-bottom: -3rem;
   }
 }
@@ -104,13 +93,13 @@
 
 /*!!!!!!!!!!!!!!!!!!!!LANDSCAPES!!!!!!!!!!!!!!!!!!!!*/
 
-/* Smallest phone */
+/* Smallest Browser Size */
 @media only screen 
   and (min-width: 320px) 
   and (orientation: landscape) {
   .wd {
-    font-size: 0.7rem;
-    margin-bottom: 2rem;
+    font-size: 0.9rem;
+    margin-bottom: 1rem;
   }
 }
 
@@ -154,6 +143,17 @@
   }
 }
 
+/* iPhone X */
+@media only screen 
+  and (min-width: 812px)
+  and (min-height: 420px)    
+  and (orientation: landscape) {
+  .wd {
+    font-size: 1.25rem;
+    margin-bottom: -3.5rem;
+  }
+}
+
 /* 922px Device */ 
 @media only screen 
   and (min-width: 922px) 
@@ -161,6 +161,17 @@
   .wd {
     font-size: 1.3rem;
     margin-bottom: -3.5rem;
+  }
+}
+
+/* 922px Device */
+@media only screen 
+  and (min-width: 922px)  
+  and (min-height: 0px) 
+  and (orientation: landscape) {
+  .wd {
+    font-size: 1.3rem;
+    margin-bottom: -4.5rem;
   }
 }
 
@@ -199,7 +210,7 @@
   and (min-width: 1440px) 
   and (orientation: landscape) {
   .wd {
-    font-size: 1.7rem;
+    font-size: 1.75rem;
     margin-bottom: -5rem;
   }
 }

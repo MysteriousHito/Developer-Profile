@@ -1,34 +1,5 @@
 /*!!!!!!!!!!!!!!!!!!!!PORTRAITS!!!!!!!!!!!!!!!!!!!!*/
 
-
-/* Smallest phone */
-@media only screen 
-  and (min-width: 180px) 
-  and (orientation: portrait) {
-  .mspage {
-   height: 2000px;
-  }
-}
-
-@media only screen 
-  and (min-width: 180px) 
-  and (orientation: portrait) {
-  .pfpage {
-    height: 2000px;
-
-  }
-}
-
-
-@media only screen 
-  and (min-width: 180px) 
-  and (orientation: portrait) {
-  .cppage {
-    height: 2000px;
-
-  }
-}
-
 /* iPhone SE */ 
 @media only screen 
   and (min-width: 320px) 
@@ -276,7 +247,7 @@
 
 /*!!!!!!!!!!!!!!!!!!!!LANDSCAPES!!!!!!!!!!!!!!!!!!!!*/
 
-/* Smallest Phone */
+/* Smallest Browser Size */
 @media only screen 
   and (min-width: 320px) 
   and (orientation: landscape) {

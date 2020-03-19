@@ -22,7 +22,7 @@ a:focus {
   text-align: center;
   cursor: default;
   user-select: none;
-   /* animation-delay: 2s;*/
+/*  animation-delay: 2s;*/
 }
 
 /*.letstalk {
@@ -130,7 +130,7 @@ nav .home, .about, .services, .contact {
   -o-transition: all 1s ease-out;
   -ms-transition: all 1s ease-out;
   transition: all 1s ease-out;
-    /*animation-delay: 0.75s;*/
+  /*animation-delay: 0.75s;*/
 }
 
 .about {
@@ -144,7 +144,7 @@ nav .home, .about, .services, .contact {
   -ms-transition: all 1s ease-out;
   transition: all 1s ease-out;
   text-decoration: none;
- /*   animation-delay: 1s;*/
+ /* animation-delay: 1s;*/
 }
 
 .about:hover {
@@ -161,7 +161,7 @@ nav .home, .about, .services, .contact {
   -ms-transition: all 1s ease-out;
   transition: all 1s ease-out;
   text-decoration: none;
-    /*animation-delay: 1.25s;*/
+ /* animation-delay: 1.25s;*/
 }
 
 .services:hover {
@@ -178,7 +178,7 @@ nav .home, .about, .services, .contact {
   -ms-transition: all 1s ease-out;
   transition: all 1s ease-out;
   text-decoration: none;
-   /* animation-delay: 1.5s;*/
+  /*animation-delay: 1.5s;*/
 }
 
 .contact:hover {
@@ -257,7 +257,7 @@ h3, p {
   animation: move-wave 3s;
    -webkit-animation: move-wave 3s;
    -webkit-animation-delay: 1s;
-   animation-delay: 5s;
+   /*animation-delay: 5s;*/
 }
 .waveMiddle {
     background-size: 50% 120px;
@@ -283,7 +283,7 @@ margin: 0 !important;
 .profweb {
   white-space: wrap;
   text-align: center;
-   /* animation-delay: 3s;*/
+ /* animation-delay: 3s;*/
   word-spacing: 0.225rem;
   margin-top: -2.5rem;
 }
@@ -294,7 +294,7 @@ margin: 0 !important;
   background:url(images/Down Arrowww.png) no-repeat;   
   z-index: 50;
   padding: 0.75em;
-    /*animation-delay: 4s;*/
+ /* animation-delay: 4s;*/
   animation-duration: 4s;
 }
 
