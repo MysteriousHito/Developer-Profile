@@ -1,7 +1,6 @@
 /*!!!!!!!!!!!!!!!!!!!!PORTRAITS!!!!!!!!!!!!!!!!!!!!*/
 
-/* iPhone SE */
-@media only screen 
+/*@media only screen 
   and (min-width: 320px) 
   and (orientation: portrait) {
   .profweb {
@@ -9,7 +8,6 @@
   }
 }
 
-/* iPhone 6/7/8 and iPhone X */ 
 @media only screen 
   and (min-width: 375px) 
   and (orientation: portrait) {
@@ -18,7 +16,6 @@
   }
 }
 
-/* iPhone 6/7/8 Plus */
 @media only screen 
   and (min-width: 414px) 
   and (orientation: portrait) {
@@ -27,7 +24,6 @@
   }
 }
 
-/* 535px device */
 @media only screen 
   and (min-width: 535px) 
   and (orientation: portrait) {
@@ -36,7 +32,6 @@
   }
 }
 
-/* 650px device */
 @media only screen 
   and (min-width: 650px) 
   and (orientation: portrait) {
@@ -45,7 +40,6 @@
   }
 }
 
-/* iPad, iPad Air, iPad Mini, iPad Pro 9" */ 
 @media only screen 
   and (min-width: 768px) 
   and (orientation: portrait) {
@@ -54,7 +48,6 @@
   }
 }
 
-/* iPad Pro 10" */
 @media only screen 
   and (min-width: 834px)  
   and (orientation: portrait) {
@@ -63,7 +56,6 @@
   }
 }
 
-/* 934px device */ 
 @media only screen 
   and (min-width: 934px)  
   and (orientation: portrait) {
@@ -72,126 +64,60 @@
   }
 }
 
-/* iPad Pro */
 @media only screen 
   and (min-width: 1024px)  
   and (orientation: portrait) {
   .profweb { 
     font-size: 1.6rem;
   }
-}
+}*/
+
+/*!!!!!!!!!!!!!!!!!!!!PORTRAIT HEIGHT FIXES!!!!!!!!!!!!!!!!!!!!*/
+
 
 
 /*!!!!!!!!!!!!!!!!!!!!LANDSCAPES!!!!!!!!!!!!!!!!!!!!*/
 
-
-/* Smallest Browser Size */
 @media only screen 
-  and (min-width: 320px) 
-  and (orientation: landscape) {
+  and (min-width: 320px) {
   .profweb {
-   font-size: 0.7rem;
-   
+   font-size: 0.825rem;
   }
 }
 
-/* iPhone SE */ 
 @media only screen 
-  and (min-width: 568px) 
-  and (orientation: landscape) {
+  and (min-width: 375px) {
   .profweb {
-   font-size: 0.7rem;
-  }
-}
-
-/* iPhone 6/7/8 */ 
-@media only screen 
-  and (min-width: 667px)  
-  and (orientation: landscape) {
-  .profweb {
-    font-size: 0.9rem;
-
-  }
-}
-
-/* iPhone 6/7/8 Plus */
-@media only screen 
-  and (min-width: 736px)  
-  and (orientation: landscape) {
-  .profweb {
-    font-size: 1rem;
-
-  }
-}
-
-/* iPhone X */
-@media only screen 
-  and (min-width: 812px)  
-  and (orientation: landscape) {
-  .profweb{
    font-size: 1rem;
   }
 }
 
-/* 922px Device */
 @media only screen 
-  and (min-width: 922px)  
-  and (orientation: landscape) {
-  .profweb{
-   font-size: 1rem;
+  and (min-width: 414px) {
+  .profweb {
+   font-size: 1.1rem;
   }
 }
 
-/* iPad, iPad Air, iPad Mini, iPad Pro 9" */
 @media only screen 
-  and (min-width: 1024px)  
-  and (orientation: landscape) {
-  .profweb { 
+  and (min-width: 568px) {
+  .profweb {
+   font-size: 1.15rem;
+  }
+}
+
+@media only screen 
+  and (min-width: 667px) {
+  .profweb {
     font-size: 1.25rem;
   }
 }
 
-/* iPad Pro 10" */
 @media only screen 
-  and (min-width: 1112px)  
-  and (orientation: landscape) {
-  .profweb { 
-    font-size: 1.4rem;
-  }
-}
-
-/* HD laptops (768p) */
-@media only screen 
-  and (min-width: 1366px)
-  and (orientation: landscape) {
-  .profweb {
-    font-size: 1.4rem;
-  }
-}
-
-/* Laptop with HiDPI Screen */
-@media only screen 
-  and (min-width: 1440px)
-  and (orientation: landscape) {
-  .profweb {
+  and (min-width: 765px) {
+  .profweb{
     font-size: 1.5rem;
   }
 }
 
-/* 13" MacBook Pro (1.5x scaling) */
-@media only screen 
-  and (min-width: 1680px)
-  and (orientation: landscape) {
-  .profweb {
-    font-size: 1.5rem;
-  }
-}
-
-/* 1080p displays */
-@media only screen 
-  and (min-width: 1920px)
-  and (orientation: landscape) {
-  .profweb {
-    font-size: 1.5rem;
-  }
-}
+/*!!!!!!!!!!!!!!!!!!!!LANDSCAPES HEIGHT FIXES!!!!!!!!!!!!!!!!!!!!*/

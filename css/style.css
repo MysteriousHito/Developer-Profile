@@ -1,5 +1,10 @@
 html, body {
-  margin: 0;
+  margin: 0; 
+  background-color: #BBAEFB;
+  background-image: linear-gradient(to bottom, #486fff 65%, #E0C3FC 115%);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+
 }
 
 a:focus {
@@ -17,7 +22,7 @@ a:focus {
   justify-content: center;
   position: relative;
   font-family: Inria Serif;
-  font-size: 18px;
+/*  font-size: 18px;*/
   z-index: 35;
   text-align: center;
   cursor: default;
@@ -119,7 +124,7 @@ nav .home, .about, .services, .contact {
   color: white;
   cursor: pointer;
   border-radius: 20%;
-  padding: 0 !important;
+
 }
 
 .home {
@@ -222,7 +227,7 @@ h3, p {
     overflow: hidden;
     height: 100%;
     bottom: -1px;
-    background-image: linear-gradient(to bottom, #486fff 50%, #E0C3FC 115%);
+    /*background-image: linear-gradient(to bottom, #486fff 50%, #E0C3FC 115%);*/
 }
 
 .bgTop {
@@ -277,7 +282,6 @@ h3, p {
 
 .design {
 text-align: center;
-margin: 0 !important;
 }
 
 .profweb {
@@ -308,6 +312,7 @@ margin: 0 !important;
   align-items: flex-end;
   z-index: 66;
   position: relative;
+
 }
 
 .fc {
