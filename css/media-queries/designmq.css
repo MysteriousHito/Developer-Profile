@@ -100,20 +100,10 @@
 }
 
 @media only screen 
-  and (min-width: 375px)
-  and (min-height: 800px) {
-  .design {
-   font-size: 2.3rem;
-   margin-top: 10rem;
-  }
-}
-
-
-@media only screen 
   and (min-width: 414px) {
   .design {
    font-size: 2.6rem;
-   margin-top: 9rem;
+   margin-top: 10rem;
   }
 }
 
@@ -144,29 +134,355 @@
 /*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!PORTRAIT HEIGHT FIXES!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
 
 @media only screen 
-  and (min-width: 700px)
-  and (min-height: 1000px) {
+  and (min-width: 320px)
+  and (max-width: 374px)
+  and (min-height: 650px) {
   .design {
-    font-size: 3.25rem;
-    margin-top: 11rem;
+   font-size: 2rem;
+   margin-top: 11rem;
   }
 }
 
 @media only screen 
-  and (min-width: 700px)
-  and (min-height: 1250px) {
+  and (min-width: 320px)
+  and (max-width: 374px)
+  and (min-height: 800px) {
   .design {
-    font-size: 3.25rem;
+   font-size: 2rem;
+   margin-top: 14rem;
+  }
+}
+
+@media only screen 
+  and (min-width: 320px)
+  and (max-width: 374px)
+  and (min-height: 900px) {
+  .design {
+   font-size: 2rem;
+   margin-top: 17rem;
+  }
+}
+
+@media only screen 
+  and (min-width: 320px)
+  and (max-width: 374px)
+  and (min-height: 1000px) {
+  .design {
+   font-size: 2rem;
+   margin-top: 20rem;
+  }
+}
+
+@media only screen 
+  and (min-width: 320px)
+  and (max-width: 374px)
+  and (min-height: 1100px) {
+  .design {
+   font-size: 2rem;
+   margin-top: 23rem;
+  }
+}
+
+@media only screen 
+  and (min-width: 320px)
+  and (max-width: 374px)
+  and (min-height: 1200px) {
+  .design {
+   font-size: 2rem;
+   margin-top: 26rem;
+  }
+}
+
+@media only screen 
+  and (min-width: 320px)
+  and (max-width: 374px)
+  and (min-height: 1300px) {
+  .design {
+   font-size: 2rem;
+   margin-top: 29rem;
+  }
+}
+
+@media only screen 
+  and (min-width: 320px)
+  and (max-width: 374px)
+  and (min-height: 1400px) {
+  .design {
+   font-size: 2rem;
+   margin-top: 32rem;
+  }
+}
+
+@media only screen 
+  and (min-width: 320px)
+  and (max-width: 374px)
+  and (min-height: 1500px) {
+  .design {
+   font-size: 2rem;
+   margin-top: 35rem;
+  }
+}
+
+@media only screen 
+  and (min-width: 375px)
+  and (max-width: 413px)
+  and (min-height: 775px) {
+  .design {
+   font-size: 2.3rem;
+   margin-top: 12rem;
+  }
+}
+
+@media only screen 
+  and (min-width: 375px)
+  and (max-width: 413px)
+  and (min-height: 875px) {
+  .design {
+   font-size: 2.3rem;
+   margin-top: 15rem;
+  }
+}
+
+@media only screen 
+  and (min-width: 375px)
+  and (max-width: 413px)
+  and (min-height: 975px) {
+  .design {
+   font-size: 2.3rem;
+   margin-top: 18rem;
+  }
+}
+
+@media only screen 
+  and (min-width: 375px)
+  and (max-width: 413px)
+  and (min-height: 1075px) {
+  .design {
+   font-size: 2.3rem;
+   margin-top: 21rem;
+  }
+}
+
+@media only screen 
+  and (min-width: 375px)
+  and (max-width: 413px)
+  and (min-height: 1175px) {
+  .design {
+   font-size: 2.3rem;
+   margin-top: 24rem;
+  }
+}
+
+@media only screen 
+  and (min-width: 375px)
+  and (max-width: 413px)
+  and (min-height: 1275px) {
+  .design {
+   font-size: 2.3rem;
+   margin-top: 27rem;
+  }
+}
+
+@media only screen 
+  and (min-width: 375px)
+  and (max-width: 413px)
+  and (min-height: 1375px) {
+  .design {
+   font-size: 2.3rem;
+   margin-top: 30rem;
+  }
+}
+
+@media only screen 
+  and (min-width: 375px)
+  and (max-width: 413px)
+  and (min-height: 1475px) {
+  .design {
+   font-size: 2.3rem;
+   margin-top: 33rem;
+  }
+}
+
+@media only screen 
+  and (min-width: 414px)
+  and (max-width: 567px)
+  and (min-height: 825px) {
+  .design {
+   font-size: 2.6rem;
+   margin-top: 14rem;
+  }
+}
+
+@media only screen 
+  and (min-width: 414px)
+  and (max-width: 567px)
+  and (min-height: 925px) {
+  .design {
+   font-size: 2.6rem;
+   margin-top: 17rem;
+  }
+}
+
+@media only screen 
+  and (min-width: 414px)
+  and (max-width: 567px)
+  and (min-height: 1025px) {
+  .design {
+   font-size: 2.6rem;
+   margin-top: 20rem;
+  }
+}
+
+@media only screen 
+  and (min-width: 414px)
+  and (max-width: 567px)
+  and (min-height: 1125px) {
+  .design {
+   font-size: 2.6rem;
+   margin-top: 23rem;
+  }
+}
+
+@media only screen 
+  and (min-width: 414px)
+  and (max-width: 567px)
+  and (min-height: 1225px) {
+  .design {
+   font-size: 2.6rem;
+   margin-top: 26rem;
+  }
+}
+
+@media only screen 
+  and (min-width: 414px)
+  and (max-width: 567px)
+  and (min-height: 1325px) {
+  .design {
+   font-size: 2.6rem;
+   margin-top: 29rem;
+  }
+}
+
+@media only screen 
+  and (min-width: 414px)
+  and (max-width: 567px)
+  and (min-height: 1425px) {
+  .design {
+   font-size: 2.6rem;
+   margin-top: 32rem;
+  }
+}
+
+@media only screen 
+  and (min-width: 414px)
+  and (max-width: 567px)
+  and (min-height: 1525px) {
+  .design {
+   font-size: 2.6rem;
+   margin-top: 35rem;
+  }
+}
+
+@media only screen 
+  and (min-width: 568px)
+  and (max-width: 666px)
+  and (min-height: 1000px) {
+  .design {
+   font-size: 3rem;
+    margin-top: 15rem;
+  }
+}
+
+@media only screen 
+  and (min-width: 568px)
+  and (max-width: 666px)
+  and (min-height: 1100px) {
+  .design {
+   font-size: 3rem;
     margin-top: 18rem;
   }
 }
 
 @media only screen 
-  and (min-width: 700px)
+  and (min-width: 568px)
+  and (max-width: 666px)
+  and (min-height: 1200px) {
+  .design {
+   font-size: 3rem;
+    margin-top: 21rem;
+  }
+}
+
+@media only screen 
+  and (min-width: 568px)
+  and (max-width: 666px)
+  and (min-height: 1300px) {
+  .design {
+   font-size: 3rem;
+    margin-top: 24rem;
+  }
+}
+
+
+@media only screen 
+  and (min-width: 568px)
+  and (max-width: 666px)
+  and (min-height: 1400px) {
+  .design {
+   font-size: 3rem;
+    margin-top: 27rem;
+  }
+}
+
+
+@media only screen 
+  and (min-width: 568px)
+  and (max-width: 666px)
   and (min-height: 1500px) {
   .design {
-    font-size: 3.25rem;
-    margin-top: 25rem;
+   font-size: 3rem;
+    margin-top: 30rem;
+  }
+}
+
+
+@media only screen 
+  and (min-width: 667px)
+  and (max-width: 764px)
+  and (min-height: 1000px) {
+  .design {
+    font-size: 3rem;
+    margin-top: 15rem;
+  }
+}
+
+@media only screen 
+  and (min-width: 667px)
+  and (max-width: 764px)
+  and (min-height: 1200px) {
+  .design {
+    font-size: 3rem;
+    margin-top: 18rem;
+  }
+}
+
+@media only screen 
+  and (min-width: 667px)
+  and (max-width: 764px)
+  and (min-height: 1400px) {
+  .design {
+    font-size: 3rem;
+    margin-top: 21rem;
+  }
+}
+
+@media only screen 
+  and (min-width: 667px)
+  and (max-width: 764px)
+  and (min-height: 1500px) {
+  .design {
+    font-size: 3rem;
+    margin-top: 24rem;
   }
 }
 
