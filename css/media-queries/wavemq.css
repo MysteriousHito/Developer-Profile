@@ -495,25 +495,25 @@
 
 @media only screen 
   and (min-width: 801px)  
-  and (max-height: 770px)  {
+  and (max-height: 768px)  {
   .waveTop {
-     display: none;
+    
   }
 }
 
 @media only screen 
   and (min-width: 801px) 
-  and (max-height: 770px)  {
+  and (max-height: 768px)  {
   .waveMiddle {
-    display: none;
+   
   }
 }
 
 @media only screen 
   and (min-width: 801px) 
-  and (max-height: 770px)  {
+  and (max-height: 768px)  {
   .waveBottom {
-    display: none;
+  
   }
 }
 
@@ -564,3 +564,30 @@
   .waveBottom {
     display: none;
   }
+
+  @media only screen 
+  and (min-width: 1280px)
+  and (min-height: 762px) {
+  .waveTop {
+     display: inherit;
+      background-size: 50% 4rem;
+  }
+}
+
+@media only screen 
+  and (min-width: 1280px)
+  and (min-height: 762px) {
+  .waveMiddle {
+    display: inherit;
+     background-size: 50% 5.5rem;
+  }
+}
+
+@media only screen 
+  and (min-width: 1280px) 
+  and (min-height: 762px) {
+  .waveBottom {
+    display: inherit;
+     background-size: 50% 4.5rem;
+  }
+}
