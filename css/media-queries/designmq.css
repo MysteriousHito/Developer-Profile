@@ -87,7 +87,7 @@
   and (min-width: 320px) {
   .design {
     font-size: 2rem;
-    margin-top: 7rem;
+    margin-top: 6rem;
   }
 }
 
@@ -95,7 +95,7 @@
   and (min-width: 375px) {
   .design {
    font-size: 2.3rem;
-   margin-top: 8rem;
+   margin-top: 7rem;
   }
 }
 
@@ -103,7 +103,7 @@
   and (min-width: 414px) {
   .design {
    font-size: 2.6rem;
-   margin-top: 10rem;
+   margin-top: 9rem;
   }
 }
 
@@ -111,7 +111,7 @@
   and (min-width: 568px) {
   .design {
    font-size: 3rem;
-    margin-top: 12rem;
+    margin-top: 11rem;
   }
 }
 
@@ -119,7 +119,7 @@
   and (min-width: 667px) {
   .design {
     font-size: 3rem;
-    margin-top: 12rem;
+    margin-top: 11rem;
   }
 }
 
@@ -380,6 +380,16 @@
   .design {
    font-size: 2.6rem;
    margin-top: 35rem;
+  }
+}
+
+@media only screen 
+  and (min-width: 568px)
+  and (max-width: 666px)
+  and (min-height: 800px) {
+  .design {
+   font-size: 3rem;
+    margin-top: 8rem;
   }
 }
 

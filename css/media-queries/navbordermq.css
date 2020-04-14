@@ -86,7 +86,7 @@
 @media only screen 
   and (min-width: 320px) {
   nav {
-    top: 2rem;
+    top: 1rem;
     width: 19rem;
     border-width: 0.095rem;
   }
@@ -95,7 +95,7 @@
 @media only screen 
   and (min-width: 375px) {
   nav {
-    top: 2rem;
+    top: 1rem;
     width: 22rem;
     border-width: 0.095rem;
   }
@@ -104,7 +104,7 @@
 @media only screen 
   and (min-width: 414px) {
   nav {
-    top: 3rem;
+    top: 1.5rem;
     width: 25rem;
     border-width: 0.095rem;
   }
@@ -113,7 +113,7 @@
 @media only screen 
   and (min-width: 475px) {
   nav {
-    top: 4rem;
+    top: 2rem;
     width: 28rem;
     border-width: 0.095rem;
   }
@@ -122,7 +122,7 @@
 @media only screen 
   and (min-width: 525px) {
   nav {
-    top: 4rem;
+    top: 2rem;
     width: 31rem;
     border-width: 0.095rem;
   }
@@ -171,6 +171,17 @@
 */
 
 /*!!!!!!!!!!!!!!!!!!!!LANDSCAPES HEIGHT FIXES!!!!!!!!!!!!!!!!!!!!*/
+
+@media only screen 
+  and (min-width: 568px)
+  and (max-width: 666px)
+  and (min-height: 800px) {
+  nav {
+    top: 0rem;
+    width: 33rem;
+    border-width: 0.095rem;
+  }
+}
 
 /*@media only screen 
   and (min-width: 320px)
@@ -225,4 +236,4 @@
     width: 45rem;
     border-width: 0.095rem;
   }*/
-}
+
