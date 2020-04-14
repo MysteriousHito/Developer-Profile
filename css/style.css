@@ -26,7 +26,9 @@ a:focus {
   z-index: 35;
   text-align: center;
   cursor: default;
-  user-select: none;
+    -webkit-user-select: none; /* Safari */
+  -ms-user-select: none; /* IE 10+ and Edge */
+  user-select: none; /* Standard syntax */
 /*  animation-delay: 2s;*/
 }
 
@@ -299,13 +301,15 @@ text-align: center;
 }
 
 .downarrow {
-  user-select: none;
   border-radius: 35%;
   background:url(images/Down Arrowww.png) no-repeat;   
   z-index: 50;
   padding: 0.75em;
   /*animation-delay: 4s;*/
   animation-duration: 4s;
+    -webkit-user-select: none; /* Safari */
+  -ms-user-select: none; /* IE 10+ and Edge */
+  user-select: none; /* Standard syntax */
 }
 
 .downarrow:focus {
