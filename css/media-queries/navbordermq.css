@@ -139,7 +139,7 @@
   }
 }
 
-@media only screen 
+/*@media only screen 
   and (min-width: 568px)
   and (max-width: 666px)
   and (max-height: 800px) {
@@ -149,7 +149,7 @@
     border-width: 0.095rem;
   }
 }
-
+*/
 @media only screen 
   and (min-width: 667px) {
   nav {

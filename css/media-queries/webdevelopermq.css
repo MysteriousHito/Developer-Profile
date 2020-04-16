@@ -106,9 +106,24 @@
   and (min-width: 414px) {
   .wd {
     font-size: 1.4rem;
-    margin-bottom: -3rem;
+    margin-bottom: -3.5rem;
   }
 }
+
+@media only screen 
+  and (min-width: 464px) {
+  .wd {
+    margin-bottom: -4rem;
+  }
+}
+
+@media only screen 
+  and (min-width: 514px) {
+  .wd {
+    margin-bottom: -4.25rem;
+  }
+}
+
 
 @media only screen 
   and (min-width: 568px) {
