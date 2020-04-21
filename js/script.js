@@ -6,6 +6,54 @@ let about = document.getElementsByClassName("about")[0];
 let services = document.getElementsByClassName("services")[0];
 let contact = document.getElementsByClassName("contact")[0];
 
+home.addEventListener('animationstart', function(e) { 
+	  event.target.focus();
+	  home.style.cursor = "pointer";
+});
+
+home.addEventListener('animationend', function(e) { 
+	  event.target.blur();
+	  home.style.cursor = "pointer";
+});
+
+about.addEventListener('animationstart', function(e) { 
+	  event.target.focus();
+	  about.style.cursor = "pointer";
+});
+
+about.addEventListener('animationend', function(e) { 
+	  event.target.blur();
+	  about.style.cursor = "pointer";
+});
+
+services.addEventListener('animationstart', function(e) { 
+	  event.target.focus();
+	  services.style.cursor = "pointer";
+});
+
+services.addEventListener('animationend', function(e) { 
+	  event.target.blur();
+	  services.style.cursor = "pointer";
+});
+
+contact.addEventListener('animationstart', function(e) { 
+	  event.target.focus();
+	  contact.style.cursor = "pointer";
+});
+
+// problem area
+
+contact.addEventListener('animationend', function(e) { 
+	  event.currentTarget.blur()
+	  contact.style.cursor = "pointer";
+});
+
+contact.addEventListener('focus', function(e) { 
+	  event.target.classList.add("hvr-grow");
+});
+
+// problem end
+
 home.addEventListener('focus', function(e) { 
 	  event.target.classList.add("hvr-grow");
 });
@@ -17,7 +65,6 @@ home.addEventListener('mouseover', function(e) {
 home.addEventListener('mouseleave', function(e) { 
 	  event.target.blur()
 	  event.target.classList.remove("hvr-grow");
-
 });
 
 about.addEventListener('focus', function(e) { 
@@ -31,11 +78,11 @@ about.addEventListener('mouseover', function(e) {
 about.addEventListener('mouseleave', function(e) { 
 	  event.target.blur()
 	  event.target.classList.remove("hvr-grow");
-
 });
 
 services.addEventListener('focus', function(e) { 
 	  event.target.classList.add("hvr-grow");
+	  e.target.focus();
 });
 
 services.addEventListener('mouseover', function(e) { 
@@ -45,11 +92,6 @@ services.addEventListener('mouseover', function(e) {
 services.addEventListener('mouseleave', function(e) { 
 	  event.target.blur()
 	  event.target.classList.remove("hvr-grow");
-
-});
-
-contact.addEventListener('focus', function(e) { 
-	  event.target.classList.add("hvr-grow");
 });
 
 contact.addEventListener('mouseover', function(e) { 
@@ -59,14 +101,11 @@ contact.addEventListener('mouseover', function(e) {
 contact.addEventListener('mouseleave', function(e) { 
 	  event.target.blur()
 	  event.target.classList.remove("hvr-grow");
-
 });
 
 button.addEventListener('click', function() { 
 	  event.target.blur()
-
 });
-
 
 da.addEventListener('click', function(e) { 
 	event.target.blur()
@@ -76,6 +115,9 @@ da.addEventListener('mouseleave', function(e) {
 	event.target.blur()
 });
 
+da.addEventListener('animationstart', function(e) { 
+	da.style.cursor = "pointer"; 
+});
 
 da.addEventListener('animationend', function(e) { 
 	doSomething() 

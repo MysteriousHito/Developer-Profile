@@ -11,11 +11,6 @@ a:focus {
   outline-color: #2B03FF;
 }
 
-/*.btn:focus {
-  box-shadow: 6px 6px 20px black;
-  background-color: #2A00FF;
- }*/
-
 .txt {
   display: flex;
   align-items: center;
@@ -30,61 +25,9 @@ a:focus {
   -ms-user-select: none; /* IE 10+ and Edge */
   user-select: none; /* Standard syntax */
   animation-delay: 2s;
+
 }
 
-/*.letstalk {
-  position: absolute;
-  z-index: 44;
-  width: 200px;
-  user-select: none;
-  padding-top: 500px;
-  cursor: pointer;
-  box-shadow: 0px 0px 3px black;
-  border-color: #6284FF;
-}
-*/
-/*.btn {
-  -webkit-tap-highlight-color: #2A00FF;
-  margin: 0;
-  font: inherit;
-  overflow: visible;
-  text-transform: none;
-  -webkit-appearance: button;
-  font-family: inherit;
-  display: inline-block;
-  line-height: 1.42857143;
-  text-align: center;
-  white-space: nowrap;
-  vertical-align: middle;
-  touch-action: manipulation;
-  cursor: pointer;
-  user-select: none;
-  background-image: none;
-  border: 1px solid transparent;
-  border-radius: 20px;
-  box-sizing: border-box;
-  border-width: 2px;
-  font-size: 16px;
-  font-weight: 500;
-  padding: 7px 18px;
-  transition: all 150ms linear;
-  border-color: #2A00FF;
-  margin-bottom: 10px;
-  color: #FFFFFF;
-  background-color: #2A00FF;
-  opacity: 1;
-}
-
-.btn:hover {
-  background-color: #2A00FF;
-  border-color: #2A00FF;
-}
-
-.btn:focus {
-  background-color: #2A00FF;
-  border-color: #2A00FF;
-  outline-color: #2A00FF;
-}*/
 
 #logo {
   display: flex;
@@ -114,7 +57,6 @@ nav {
   border-right: none;
   border-left: none;
   border-width: 0.15rem;
-
 }
 
 nav .home, .about, .services, .contact {
@@ -125,7 +67,7 @@ nav .home, .about, .services, .contact {
   text-decoration: none;
   text-align: center;
   color: white;
-  cursor: pointer;
+  cursor: default;
   border-radius: 20%;
   user-select: none;
   -webkit-user-select: none; /* Safari */
@@ -136,9 +78,6 @@ nav .home, .about, .services, .contact {
   -webkit-transition-property: transform;
   transition-property: transform;
   animation-delay: 0.75s
-}
-
-
 }
 
 .home {
@@ -153,6 +92,7 @@ nav .home, .about, .services, .contact {
   transition-duration: 0.3s;
   -webkit-transition-property: transform;
   transition-property: transform;
+  cursor: default;
 }
 
 .about {
@@ -169,6 +109,7 @@ nav .home, .about, .services, .contact {
   -webkit-transition-property: transform;
   transition-property: transform;
   animation-delay: 1s;
+  cursor: default;
 }
 
 .about:hover {
@@ -185,11 +126,12 @@ nav .home, .about, .services, .contact {
   -ms-transition: all 1s ease-out;
   transition: all 1s ease-out;
   text-decoration: none;
-    -webkit-transition-duration: 0.3s;
+  -webkit-transition-duration: 0.3s;
   transition-duration: 0.3s;
   -webkit-transition-property: transform;
   transition-property: transform;
   animation-delay: 1.25s;
+  cursor: default;
 }
 
 .services:hover {
@@ -211,6 +153,7 @@ nav .home, .about, .services, .contact {
   -webkit-transition-property: transform;
   transition-property: transform;
   animation-delay: 1.5s;
+  cursor: default;
 }
 
 .contact:hover {
@@ -291,10 +234,10 @@ h3, p {
 }
 
 .waveAnimation .waveTop {
-  animation: move-wave 3s;
-   -webkit-animation: move-wave 3s;
-   -webkit-animation-delay: 1s;
-   animation-delay: 5s;
+    animation: move-wave 3s;
+    -webkit-animation: move-wave 3s;
+    -webkit-animation-delay: 1s;
+    animation-delay: 5s;
 }
 .waveMiddle {
     background-size: 50% 120px;
@@ -340,11 +283,13 @@ text-align: center;
     -webkit-user-select: none; /* Safari */
   -ms-user-select: none; /* IE 10+ and Edge */
   user-select: none; /* Standard syntax */
+  cursor: default;
 }
 
 .downarrow:focus {
   outline-color: #2A00FF;
   outline-style: solid;
+  outline-width: 0.1px;
 }
 
 .da-container {
@@ -416,6 +361,7 @@ footer {
   border-radius: 10%;
 }
 */
+
 .home:hover, .about:hover, .services:hover, .contact:hover {
   color: #2A00FF;
   font-weight: bolder;
@@ -437,6 +383,7 @@ footer {
   visibility: hidden;
   z-index: 1000;
 }
+
 #button:after {
   content: "\f077";
   font-family: FontAwesome;
@@ -446,13 +393,15 @@ footer {
   line-height: 50px;
   color: #fff;
 }
+
 #button:hover {
-  cursor: pointer;
   background-image:  #000;
 }
+
 #button:active {
   background-color: #000;
 }
+
 #button.show {
   opacity: 1;
   visibility: visible;
@@ -463,3 +412,8 @@ footer {
   font-weight: bolder;
   outline: none;
 }
+
+/*.effect {
+  color: #2A00FF;
+  font-weight: bolder;
+}*/
