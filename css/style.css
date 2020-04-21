@@ -29,7 +29,7 @@ a:focus {
     -webkit-user-select: none; /* Safari */
   -ms-user-select: none; /* IE 10+ and Edge */
   user-select: none; /* Standard syntax */
-/*  animation-delay: 2s;*/
+  animation-delay: 2s;
 }
 
 /*.letstalk {
@@ -114,6 +114,7 @@ nav {
   border-right: none;
   border-left: none;
   border-width: 0.15rem;
+
 }
 
 nav .home, .about, .services, .contact {
@@ -130,6 +131,11 @@ nav .home, .about, .services, .contact {
   -webkit-user-select: none; /* Safari */
   -ms-user-select: none; /* IE 10+ and Edge */
   user-select: none; /* Standard syntax */
+    -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+  animation-delay: 0.75s
 }
 
 
@@ -143,12 +149,14 @@ nav .home, .about, .services, .contact {
   -o-transition: all 1s ease-out;
   -ms-transition: all 1s ease-out;
   transition: all 1s ease-out;
-/*  animation-delay: 0.75s;*/
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
 }
 
 .about {
   width: 110px;
-  color: white;
   white-space: nowrap;
   user-select: none;
   -webkit-transition: all 1s ease-out;
@@ -156,8 +164,11 @@ nav .home, .about, .services, .contact {
   -o-transition: all 1s ease-out;
   -ms-transition: all 1s ease-out;
   transition: all 1s ease-out;
-  text-decoration: none;
-/*  animation-delay: 1s;*/
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+  animation-delay: 1s;
 }
 
 .about:hover {
@@ -174,7 +185,11 @@ nav .home, .about, .services, .contact {
   -ms-transition: all 1s ease-out;
   transition: all 1s ease-out;
   text-decoration: none;
-/*  animation-delay: 1.25s;*/
+    -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+  animation-delay: 1.25s;
 }
 
 .services:hover {
@@ -191,7 +206,11 @@ nav .home, .about, .services, .contact {
   -ms-transition: all 1s ease-out;
   transition: all 1s ease-out;
   text-decoration: none;
-/*  animation-delay: 1.5s;*/
+    -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+  animation-delay: 1.5s;
 }
 
 .contact:hover {
@@ -227,7 +246,7 @@ h3, p {
     bottom: 0;
     top: 0;
     margin: auto;
-  /*  animation-delay: 5s;*/
+    animation-delay: 5s;
 }
 
 .waveWrapperInner {
@@ -237,24 +256,24 @@ h3, p {
     height: 100%;
     bottom: -1px;
     /*background-image: linear-gradient(to bottom, #486fff 50%, #E0C3FC 115%);*/
-   /* animation-delay: 5s;*/
+    animation-delay: 5s;
 }
 
 .bgTop {
     z-index: 15;
     opacity: 0.5;
-   /* animation-delay: 5s;*/
+    animation-delay: 5s;
 }
 
 .bgMiddle {
     z-index: 10;
     opacity: 0.75;
-  /*  animation-delay: 5s;*/
+    animation-delay: 5s;
 }
 
 .bgBottom {
     z-index: 5;
-  /*  animation-delay: 5s;*/
+    animation-delay: 5s;
 }
 
 .wave {
@@ -275,7 +294,7 @@ h3, p {
   animation: move-wave 3s;
    -webkit-animation: move-wave 3s;
    -webkit-animation-delay: 1s;
-   /*animation-delay: 5s;*/
+   animation-delay: 5s;
 }
 .waveMiddle {
     background-size: 50% 120px;
@@ -303,7 +322,7 @@ text-align: center;
 .profweb {
   white-space: wrap;
   text-align: center;
-/*  animation-delay: 3s;*/
+  animation-delay: 3s;
   word-spacing: 0.225rem;
   margin-top: -2.5rem;
     -webkit-user-select: none; /* Safari */
@@ -316,7 +335,7 @@ text-align: center;
   background:url(images/Down Arrowww.png) no-repeat;   
   z-index: 50;
   padding: 0.75em;
-  /*animation-delay: 4s;*/
+  animation-delay: 4s;
   animation-duration: 4s;
     -webkit-user-select: none; /* Safari */
   -ms-user-select: none; /* IE 10+ and Edge */
