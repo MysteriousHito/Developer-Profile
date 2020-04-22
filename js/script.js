@@ -157,6 +157,7 @@ btn.on('click', function(e) {
 
 $('input').on('dragstart', false);
 $('nav').on('dragstart', false);
+$('da').on('dragstart', false);
 
 
 /*! jQuery v3.4.1 | (c) JS Foundation and other contributors | jquery.org/license */
