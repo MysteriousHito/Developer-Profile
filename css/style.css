@@ -4,7 +4,12 @@ html, body {
   background-image: linear-gradient(to bottom, #486fff 65%, #E0C3FC 115%);
   background-repeat: no-repeat;
   background-attachment: fixed;
+}
 
+@-moz-document url-prefix() {
+    .home:hover, .about:hover, .services:hover, .contact:hover { 
+  transition-duration: 0.05s;
+    }
 }
 
 a:focus {
@@ -17,17 +22,14 @@ a:focus {
   justify-content: center;
   position: relative;
   font-family: Inria Serif;
-/*  font-size: 18px;*/
   z-index: 35;
   text-align: center;
   cursor: default;
     -webkit-user-select: none; /* Safari */
   -ms-user-select: none; /* IE 10+ and Edge */
   user-select: none; /* Standard syntax */
-  animation-delay: 2s;
-
+  animation-delay: 1.75s;
 }
-
 
 #logo {
   display: flex;
@@ -43,8 +45,6 @@ a:focus {
   align-items: center;
 }
 
-
-/*NAV BAR*/
 nav {
   display: flex;
   justify-content: center;
@@ -77,7 +77,7 @@ nav .home, .about, .services, .contact {
   transition-duration: 0.3s;
   -webkit-transition-property: transform;
   transition-property: transform;
-  animation-delay: 0.75s
+  animation-delay: 0.75s;
 }
 
 .home {
@@ -161,8 +161,6 @@ nav .home, .about, .services, .contact {
   text-decoration: none;
 }
 
-/*End of NAV BAR*/
-
 h3, p {
   max-width: 30em;
   margin-bottom: 1.618em;
@@ -189,7 +187,7 @@ h3, p {
     bottom: 0;
     top: 0;
     margin: auto;
-    animation-delay: 5s;
+    animation-delay: 4.75s;
 }
 
 .waveWrapperInner {
@@ -199,24 +197,24 @@ h3, p {
     height: 100%;
     bottom: -1px;
     /*background-image: linear-gradient(to bottom, #486fff 50%, #E0C3FC 115%);*/
-    animation-delay: 5s;
+    animation-delay: 4.75s;
 }
 
 .bgTop {
     z-index: 15;
     opacity: 0.5;
-    animation-delay: 5s;
+    animation-delay: 4.75s;
 }
 
 .bgMiddle {
     z-index: 10;
     opacity: 0.75;
-    animation-delay: 5s;
+    animation-delay: 4.75s;
 }
 
 .bgBottom {
     z-index: 5;
-    animation-delay: 5s;
+    animation-delay: 4.75s;
 }
 
 .wave {
@@ -236,8 +234,8 @@ h3, p {
 .waveAnimation .waveTop {
     animation: move-wave 3s;
     -webkit-animation: move-wave 3s;
-    -webkit-animation-delay: 1s;
-    animation-delay: 5s;
+    -webkit-animation-delay: 4.75s;
+    animation-delay: 4.75s;
 }
 .waveMiddle {
     background-size: 50% 120px;
@@ -265,7 +263,7 @@ text-align: center;
 .profweb {
   white-space: wrap;
   text-align: center;
-  animation-delay: 3s;
+  animation-delay: 2.75s;
   word-spacing: 0.225rem;
   margin-top: -2.5rem;
     -webkit-user-select: none; /* Safari */
@@ -278,7 +276,7 @@ text-align: center;
   background:url(images/Down Arrowww.png) no-repeat;   
   z-index: 50;
   padding: 0.75em;
-  animation-delay: 4s;
+  animation-delay: 3.75s;
   animation-duration: 4s;
     -webkit-user-select: none; /* Safari */
   -ms-user-select: none; /* IE 10+ and Edge */
@@ -412,8 +410,3 @@ footer {
   font-weight: bolder;
   outline: none;
 }
-
-/*.effect {
-  color: #2A00FF;
-  font-weight: bolder;
-}*/

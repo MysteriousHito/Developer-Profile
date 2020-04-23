@@ -36,24 +36,6 @@ services.addEventListener('animationend', function(e) {
 	  services.style.cursor = "pointer";
 });
 
-contact.addEventListener('animationstart', function(e) { 
-	  event.target.focus();
-	  contact.style.cursor = "pointer";
-});
-
-// problem area
-
-contact.addEventListener('animationend', function(e) { 
-	  event.currentTarget.blur()
-	  contact.style.cursor = "pointer";
-});
-
-contact.addEventListener('focus', function(e) { 
-	  event.target.classList.add("hvr-grow");
-});
-
-// problem end
-
 home.addEventListener('focus', function(e) { 
 	  event.target.classList.add("hvr-grow");
 });
@@ -92,6 +74,21 @@ services.addEventListener('mouseover', function(e) {
 services.addEventListener('mouseleave', function(e) { 
 	  event.target.blur()
 	  event.target.classList.remove("hvr-grow");
+});
+
+contact.addEventListener('animationstart', function(e) { 
+	  event.target.focus();
+	  contact.style.cursor = "pointer";  
+});
+
+contact.addEventListener('transitionend', function end(e) { 	
+	  event.target.blur()
+	  contact.style.cursor = "pointer";
+	  contact.removeEventListener('transitionend', end); 
+});
+
+contact.addEventListener('focus', function(e) {
+	  event.target.classList.add("hvr-grow");
 });
 
 contact.addEventListener('mouseover', function(e) { 
