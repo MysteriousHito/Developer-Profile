@@ -168,6 +168,26 @@
   }
 }
 
+@media only screen 
+  and (min-width: 765px) {
+  nav {
+    top: 2rem;
+    width: 45rem;
+    border-width: 0.095rem;
+  }
+}
+
+@media only screen 
+  and (min-width: 2200px)
+  and (min-height: 1200px)  {
+  nav {
+    top: 2rem;
+    width: 55rem;
+    border-width: 0.095rem;
+  }
+}
+
+
 /*!!!!!!!!!!!!!!!!!!!!PORTRAIT HEIGHT FIXES!!!!!!!!!!!!!!!!!!!!*/
 
 /*@media only screen 

@@ -120,4 +120,12 @@
   }
 }
 
+@media only screen 
+  and (min-width: 2200px)
+  and (min-height: 1200px) {
+  .profweb{
+    font-size: 1.75rem;
+  }
+}
+
 /*!!!!!!!!!!!!!!!!!!!!LANDSCAPES HEIGHT FIXES!!!!!!!!!!!!!!!!!!!!*/

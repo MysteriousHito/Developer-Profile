@@ -175,7 +175,7 @@
 
 @media only screen 
   and (min-width: 765px) 
-  and (min-height: 1024px){
+  and (min-height: 1024px) {
   .home, .about, .services, .contact {
     font-size: 1.8rem;
     width: 2.85rem;
@@ -183,6 +183,18 @@
     top: -0.35rem;
   }
 }
+
+@media only screen 
+  and (min-width: 2200px)
+  and (min-height: 1200px) {
+  .home, .about, .services, .contact {
+    font-size: 2rem;
+    width: 2.85rem;
+    margin-top: 3.75rem;
+    top: -0.35rem;
+  }
+}
+
 
 /*!!!!!!!!!!!!!!!!!!!!LANDSCAPE HEIGHT FIXES!!!!!!!!!!!!!!!!!!!!!!!*/
 

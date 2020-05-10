@@ -181,6 +181,15 @@
   }
 }
 
+@media only screen 
+  and (min-width: 2200px)
+  and (min-height: 1200px) {
+  .downarrow {
+    height: 5.25rem;
+    width: 5.25rem;
+    margin-top: -2rem;
+  }
+}
 /*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!LANDSCAPES HEIGHT FIXES!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
 
 /*@media only screen 

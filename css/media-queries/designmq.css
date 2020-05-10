@@ -313,10 +313,20 @@
   }
 }
 
-@media only screen 
+/*@media only screen 
   and (min-width: 414px)
   and (max-width: 567px)
   and (min-height: 925px) {
+  .design {
+   font-size: 2.6rem;
+   margin-top: 15rem;
+  }
+}*/
+
+@media only screen 
+  and (min-width: 414px)
+  and (max-width: 567px)
+  and (min-height: 1025px) {
   .design {
    font-size: 2.6rem;
    margin-top: 17rem;
@@ -326,20 +336,10 @@
 @media only screen 
   and (min-width: 414px)
   and (max-width: 567px)
-  and (min-height: 1025px) {
-  .design {
-   font-size: 2.6rem;
-   margin-top: 20rem;
-  }
-}
-
-@media only screen 
-  and (min-width: 414px)
-  and (max-width: 567px)
   and (min-height: 1125px) {
   .design {
    font-size: 2.6rem;
-   margin-top: 23rem;
+   margin-top: 18.5rem;
   }
 }
 
@@ -349,7 +349,7 @@
   and (min-height: 1225px) {
   .design {
    font-size: 2.6rem;
-   margin-top: 26rem;
+   margin-top: 19.5rem;
   }
 }
 
@@ -359,7 +359,7 @@
   and (min-height: 1325px) {
   .design {
    font-size: 2.6rem;
-   margin-top: 29rem;
+   margin-top: 20.5rem;
   }
 }
 
@@ -369,7 +369,7 @@
   and (min-height: 1425px) {
   .design {
    font-size: 2.6rem;
-   margin-top: 32rem;
+   margin-top: 21.5rem;
   }
 }
 
@@ -379,7 +379,7 @@
   and (min-height: 1525px) {
   .design {
    font-size: 2.6rem;
-   margin-top: 35rem;
+   margin-top: 22.5rem;
   }
 }
 
@@ -512,6 +512,15 @@
     margin-top: 27rem;
   }
 }
+
+@media only screen 
+  and (min-width: 2200px)
+  and (min-height: 1200px) {
+  .design {
+    font-size: 4.5rem;
+  }
+}
+
 
 /*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!LANDSCAPES HEIGHT FIXES!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
 
