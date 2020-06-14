@@ -78,6 +78,7 @@ nav .home, .about, .services, .contact {
   transition-duration: 0.3s;
   -webkit-transition-property: transform;
   transition-property: transform;
+  /*change back to 0.75s*/
   animation-delay: 5.75s;
 }
 
