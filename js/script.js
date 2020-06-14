@@ -108,6 +108,10 @@ button.addEventListener('focus', function(e) {
 	  event.target.blur()
 });
 
+button.addEventListener('animationend', function(e) { 
+	  event.target.blur()
+});
+
 // tab
 da.addEventListener('keyup', function(e) { 
 	if (event.keyCode === 9) {
