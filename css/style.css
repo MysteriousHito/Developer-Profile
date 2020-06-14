@@ -79,7 +79,7 @@ nav .home, .about, .services, .contact {
   -webkit-transition-property: transform;
   transition-property: transform;
   /*change back to 0.75s*/
-  animation-delay: 5.75s;
+  animation-delay: 0.75s;
 }
 
 .home {
