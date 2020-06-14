@@ -1,10 +1,17 @@
-html, body {
+  body {
   margin: 0; 
-   background-image: linear-gradient(to bottom, #2453ff 65%, #E0C3FC 105%);
+  background-color: #2453ff;
   background-image: linear-gradient(to bottom, #2453ff 65%, #E0C3FC 105%);
   background-repeat: no-repeat;
   background-attachment: fixed;
-  
+}
+
+html {
+  margin: 0;
+/*background-color: #2A00FF;*/
+  background-image: #2453ff;
+  background-repeat: no-repeat;
+ /* background-attachment: fixed;*/
 }
 
 /*#2453ff*/
