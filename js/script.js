@@ -102,14 +102,22 @@ contact.addEventListener('mouseleave', function(e) {
 
 button.addEventListener('click', function() { 
 	  event.target.blur()
+	  event.currentTarget.blur()
 });
 
 button.addEventListener('focus', function(e) { 
 	  event.target.blur()
+	  event.currentTarget.blur()
 });
 
 button.addEventListener('animationend', function(e) { 
 	  event.target.blur()
+	  event.currentTarget.blur()
+});
+
+button.addEventListener('transitionend', function(e) { 
+	  event.target.blur()
+	  event.currentTarget.blur()
 });
 
 // tab
