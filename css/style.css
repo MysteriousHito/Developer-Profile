@@ -279,29 +279,19 @@ text-align: center;
   padding: 0.75em;
   animation-delay: 3.75s;
   animation-duration: 4s;
-    -webkit-user-select: none; /* Safari */
+  -webkit-user-select: none; /* Safari */
   -ms-user-select: none; /* IE 10+ and Edge */
   user-select: none; /* Standard syntax */
   cursor: default;
-    -webkit-tap-highlight-color: rgba(255, 255, 255, 0); 
--webkit-tap-highlight-color: transparent;  /* i.e. Nexus5/Chrome and Kindle Fire HD 7''*/
-    -webkit-tap-highlight-color: rgba(255, 255, 255, 0) !important; 
-    -webkit-focus-ring-color: rgba(255, 255, 255, 0) !important; 
-    outline: none !important;
 }
 
 .downarrow:focus {
   outline-color: #2A00FF;
   outline-style: solid;
   outline-width: 0.1px;
-      -webkit-user-select: none; /* Safari */
+  -webkit-user-select: none; /* Safari */
   -ms-user-select: none; /* IE 10+ and Edge */
   user-select: none; /* Standard syntax */
-  -webkit-tap-highlight-color: rgba(255, 255, 255, 0); 
--webkit-tap-highlight-color: transparent;  /* i.e. Nexus5/Chrome and Kindle Fire HD 7''*/
-    -webkit-tap-highlight-color: rgba(255, 255, 255, 0) !important; 
-    -webkit-focus-ring-color: rgba(255, 255, 255, 0) !important; 
-    outline: none !important;
 }
 
 .da-container {
