@@ -1,0 +1,331 @@
+@media all and (-ms-high-contrast:active), all and (-ms-high-contrast:none) and (min-width: 375px) {
+ .home {
+  left: -5rem;
+ }
+}
+
+@media all and (-ms-high-contrast:active), all and (-ms-high-contrast:none) and (min-width: 375px) {
+ .services {
+  left: -3rem;
+ }
+}
+
+ @media all and (-ms-high-contrast:active), all and (-ms-high-contrast:none) and (min-width: 375px) {
+ .contact {
+  left: -1.5rem;
+ }
+}
+
+@media all and (-ms-high-contrast:active), all and (-ms-high-contrast:none) and (min-width: 414px) {
+ .home {
+  left: -8.75rem;
+ }
+}
+
+@media all and (-ms-high-contrast:active), all and (-ms-high-contrast:none) and (min-width: 414px) {
+ .services {
+  left: -6.7rem;
+ }
+}
+
+ @media all and (-ms-high-contrast:active), all and (-ms-high-contrast:none) and (min-width: 414px) {
+ .contact {
+  left: -5rem;
+ }
+}
+
+@media all and (-ms-high-contrast:active), all and (-ms-high-contrast:none) and (min-width: 525px) {
+ .home {
+  left: -9rem;
+ }
+}
+
+@media all and (-ms-high-contrast:active), all and (-ms-high-contrast:none) and (min-width: 525px) {
+ .services {
+  left: -8.25rem;
+ }
+}
+
+ @media all and (-ms-high-contrast:active), all and (-ms-high-contrast:none) and (min-width: 525px) {
+ .contact {
+  left: -7rem;
+ }
+}
+
+@media all and (-ms-high-contrast:active), all and (-ms-high-contrast:none) and (min-width: 568px) {
+ .home {
+  left: -9.75rem;
+ }
+}
+
+@media all and (-ms-high-contrast:active), all and (-ms-high-contrast:none) and (min-width: 568px) {
+ .services {
+  left: -9.5rem;
+ }
+}
+
+ @media all and (-ms-high-contrast:active), all and (-ms-high-contrast:none) and (min-width: 568px) {
+ .contact {
+  left: -9rem;
+ }
+}
+
+@media all and (-ms-high-contrast:active), all and (-ms-high-contrast:none) and (min-width: 667px) {
+ .home {
+  left: -10.75rem;
+ }
+}
+
+@media all and (-ms-high-contrast:active), all and (-ms-high-contrast:none) and (min-width: 667px) {
+ .services {
+  left: -10rem;
+ }
+}
+
+ @media all and (-ms-high-contrast:active), all and (-ms-high-contrast:none) and (min-width: 667px) {
+ .contact {
+  left: -9rem;
+ }
+}
+ 
+@media all and (-ms-high-contrast:active), all and (-ms-high-contrast:none) and (min-width: 765px) {
+ .home {
+  left: -14rem;
+ }
+}
+
+@media all and (-ms-high-contrast:active), all and (-ms-high-contrast:none) and (min-width: 765px) {
+ .services {
+  left: -14rem;
+ }
+}
+
+ @media all and (-ms-high-contrast:active), all and (-ms-high-contrast:none) and (min-width: 765px) {
+ .contact {
+  left: -13rem;
+ }
+}
+
+@media all and (-ms-high-contrast:active), all and (-ms-high-contrast:none) and (min-width: 0px) {
+    nav {
+        top: 1.7rem;
+        border-width: 0.095rem;
+        width: 17rem;
+    }
+}
+
+@media all and (-ms-high-contrast:active), all and (-ms-high-contrast:none) and (min-width: 320px) {
+    nav {
+        top: 1rem;
+        width: 19rem;
+        border-width: 0.095rem;
+    }
+}
+@media all and (-ms-high-contrast:active), all and (-ms-high-contrast:none) and (min-width: 375px) {
+    nav {
+        top: 1rem;
+        width: 22rem;
+        border-width: 0.095rem;
+    }
+}
+@media all and (-ms-high-contrast:active), all and (-ms-high-contrast:none) and (min-width: 414px) {
+    nav {
+        top: 1.5rem;
+        width: 25rem;
+        border-width: 0.095rem;
+    }
+}
+@media all and (-ms-high-contrast:active), all and (-ms-high-contrast:none) and (min-width: 475px) {
+    nav {
+        top: 2rem;
+        width: 28rem;
+        border-width: 0.095rem;
+    }
+}
+@media all and (-ms-high-contrast:active), all and (-ms-high-contrast:none) and (min-width: 525px) {
+    nav {
+        top: 2rem;
+        width: 31rem;
+        border-width: 0.095rem;
+    }
+}
+@media all and (-ms-high-contrast:active), all and (-ms-high-contrast:none) and (min-width: 568px) {
+    nav {
+        top: 2rem;
+        width: 33rem;
+        border-width: 0.095rem;
+    }
+}
+@media all and (-ms-high-contrast:active), all and (-ms-high-contrast:none) and (min-width: 667px) {
+    nav {
+        top: 2rem;
+        width: 38.5rem;
+        border-width: 0.095rem;
+    }
+}
+ @media all and (-ms-high-contrast:active), all and (-ms-high-contrast:none) and (min-width: 765px) {
+    nav {
+        top: 2rem;
+        width: 45rem;
+        border-width: 0.095rem;
+    }
+}
+
+@media all and (-ms-high-contrast:active), all and (-ms-high-contrast:none) and (min-width: 2200px) and (min-height: 1200px) {
+    nav {
+        top: 2rem;
+        width: 55rem;
+        border-width: 0.095rem;
+    }
+}
+
+/*!!!!!!!!!!!!!!!!!!!!LANDSCAPES!!!!!!!!!!!!!!!!!!!!!!!*/
+@media all and (-ms-high-contrast:active), all and (-ms-high-contrast:none) and (min-width: 320px) {
+    .about,
+    .contact,
+    .home,
+    .services {
+        margin: 0 auto 0;
+        font-size: 1rem;
+       width: 11rem;
+        left: -0.25rem;
+        top: 0.25rem;
+        margin-top: 0.75rem;
+    }
+}
+@media all and (-ms-high-contrast:active), all and (-ms-high-contrast:none) and (min-width: 375px) {
+    .about,
+    .contact,
+    .home,
+    .services {
+        margin: 0 auto 0;
+        font-size: 1.1rem;
+        top: 0;
+        width: 11rem;
+        left: -0.25rem;
+        margin-top: 1.75rem;
+    }
+}
+@media all and (-ms-high-contrast:active), all and (-ms-high-contrast:none) and (min-width: 414px) {
+    .about,
+    .contact,
+    .home,
+    .services {
+        margin: 0 auto 0;
+        font-size: 1.3rem;
+     	width: 11rem;
+        left: -0.25rem;
+        top: 0;
+        margin-top: 1.75rem;
+    }
+}
+
+@media all and (-ms-high-contrast:active), all and (-ms-high-contrast:none) and (min-width: 525px) {
+    .about,
+    .contact,
+    .home,
+    .services {
+        margin: 0 auto 0;
+        font-size: 1.4rem;
+     	width: 11rem;
+        left: -0.25rem;
+        top: 0;
+        margin-top: 1.75rem;
+    }
+}
+@media all and (-ms-high-contrast:active), all and (-ms-high-contrast:none) and (min-width: 568px) {
+    .about,
+    .contact,
+    .home,
+    .services {
+        margin: 0 auto 0;
+        font-size: 1.5rem;
+     	width: 11rem;
+        left: -0.25rem;
+        top: 0;
+        margin-top: 3.75rem;
+    }
+}
+@media all and (-ms-high-contrast:active), all and (-ms-high-contrast:none) and (min-width: 667px) {
+    .about,
+    .contact,
+    .home,
+    .services {
+        margin: 0 auto 0;
+        font-size: 1.6rem;
+    	width: 11rem;
+        left: -0.25rem;
+        margin-top: 3.75rem;
+        top: -0.1rem;
+    }
+}
+@media all and (-ms-high-contrast:active), all and (-ms-high-contrast:none) and (min-width: 765px) {
+    .about,
+    .contact,
+    .home,
+    .services {
+        font-size: 1.8rem;
+        width: 11rem;
+        left: -1rem;
+        margin-top: 3.75rem;
+        top: -0.25rem;
+    }
+} /*!!!!!!!!!!!!!!!!!!!!PORTRAIT HEIGHT FIXES!!!!!!!!!!!!!!!!!!!!!!!*/
+@media all and (-ms-high-contrast:active), all and (-ms-high-contrast:none) and (min-width: 765px) and (min-height: 1024px) {
+    .about,
+    .contact,
+    .home,
+    .services {
+        font-size: 1.8rem;
+        /*width: unset;*/
+        margin-top: 3.75rem;
+        top: -0.35rem;
+    }
+}
+@media all and (-ms-high-contrast:active), all and (-ms-high-contrast:none) and (min-width: 2200px) and (min-height: 1200px) {
+    .about,
+    .contact,
+    .home,
+    .services {
+        font-size: 2rem;
+      /*  width: unset;*/
+        margin-top: 3.75rem;
+        top: -0.35rem;
+    }
+}
+
+@media all and (-ms-high-contrast:active), all and (-ms-high-contrast:none) and (min-width: 375px) {
+ .about {
+  left: -0.6rem;
+ }
+}
+
+@media all and (-ms-high-contrast:active), all and (-ms-high-contrast:none) and (min-width: 414px) {
+ .about {
+  left: -0.65rem;
+ }
+}
+
+@media all and (-ms-high-contrast:active), all and (-ms-high-contrast:none) and (min-width: 525px) {
+ .about {
+  left: -0.75rem;
+ }
+}
+
+@media all and (-ms-high-contrast:active), all and (-ms-high-contrast:none) and (min-width: 568px) {
+ .about {
+  left: -0.75rem;
+ }
+}
+
+@media all and (-ms-high-contrast:active), all and (-ms-high-contrast:none) and (min-width: 667px) {
+ .about {
+  left: -1rem;
+ }
+}
+
+@media all and (-ms-high-contrast:active), all and (-ms-high-contrast:none) and (min-width: 765px) {
+ .about {
+  left: -2rem;
+ }
+}
