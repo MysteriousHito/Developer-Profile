@@ -1,9 +1,10 @@
 html, body {
   margin: 0; 
-  background-color: #BBAEFB;
+   background-image: linear-gradient(to bottom, #2453ff 65%, #E0C3FC 105%);
   background-image: linear-gradient(to bottom, #2453ff 65%, #E0C3FC 105%);
   background-repeat: no-repeat;
   background-attachment: fixed;
+  
 }
 
 /*#2453ff*/
