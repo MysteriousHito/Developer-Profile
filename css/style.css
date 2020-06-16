@@ -39,7 +39,7 @@ a:focus {
     -webkit-user-select: none; /* Safari */
   -ms-user-select: none; /* IE 10+ and Edge */
   user-select: none; /* Standard syntax */
-  animation-delay: 1.75s;
+ /* animation-delay: 1.75s;*/
 }
 
 #logo {
@@ -89,7 +89,7 @@ nav .home, .about, .services, .contact {
   -webkit-transition-property: transform;
   transition-property: transform;
   /*change back to 0.75s*/
-  animation-delay: 0.75s;
+/*  animation-delay: 0.75s;*/
 }
 
 .home {
@@ -120,7 +120,7 @@ nav .home, .about, .services, .contact {
   transition-duration: 0.3s;
   -webkit-transition-property: transform;
   transition-property: transform;
-  animation-delay: 1s;
+/*  animation-delay: 1s;*/
   cursor: default;
 }
 
@@ -142,7 +142,7 @@ nav .home, .about, .services, .contact {
   transition-duration: 0.3s;
   -webkit-transition-property: transform;
   transition-property: transform;
-  animation-delay: 1.25s;
+/*  animation-delay: 1.25s;*/
   cursor: default;
 }
 
@@ -164,7 +164,7 @@ nav .home, .about, .services, .contact {
   transition-duration: 0.3s;
   -webkit-transition-property: transform;
   transition-property: transform;
-  animation-delay: 1.5s;
+/*  animation-delay: 1.5s;*/
   cursor: default;
 }
 
@@ -192,51 +192,51 @@ h3, p {
 }
 
 .waveWrapper {
-    overflow: hidden !important;
-    position: absolute !important;
-    left: 0 !important;
-    right: 0 !important;
-    bottom: 0 !important;
-    top: 0 !important;
-    margin: auto !important;
-    animation-delay: 4.75s;
+    overflow: hidden;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    margin: auto;
+/*    animation-delay: 4.75s;*/
 }
 
 .waveWrapperInner {
-    position: absolute !important;
-    width: 100% !important;
-    overflow: hidden !important;
-    height: 100% !important;
-    bottom: -1px !important;
+    position: absolute;
+    width: 100%;
+    overflow: hidden;
+    height: 100%;
+    bottom: -1px;
     /*background-image: linear-gradient(to bottom, #486fff 50%, #E0C3FC 115%);*/
-    animation-delay: 4.75s;
+ /*   animation-delay: 4.75s;*/
 }
 
 .bgTop {
     z-index: 15;
     opacity: 0.5;
-    animation-delay: 4.75s;
+  /*  animation-delay: 4.75s;*/
 }
 
 .bgMiddle {
     z-index: 10;
     opacity: 0.75;
-    animation-delay: 4.75s;
+  /*  animation-delay: 4.75s;*/
 }
 
 .bgBottom {
     z-index: 5;
-    animation-delay: 4.75s;
+ /*   animation-delay: 4.75s;*/
 }
 
 .wave {
-  position: absolute !important;
-  left: 0 !important;
-  width: 200% !important;
-  height: 100% !important;
-  background-repeat: repeat no-repeat !important;
-  background-position: 0 bottom !important;
-  transform-origin: center bottom !important;
+  position: absolute;
+  left: 0;
+  width: 200%;
+  height: 100%;
+  background-repeat: repeat no-repeat;
+  background-position: 0 bottom;
+  transform-origin: center bottom;
 }
 
 .waveTop {
@@ -246,8 +246,8 @@ h3, p {
 .waveAnimation .waveTop {
     animation: move-wave 3s;
     -webkit-animation: move-wave 3s;
-    -webkit-animation-delay: 4.75s;
-    animation-delay: 4.75s;
+  /*  -webkit-animation-delay: 4.75s;
+    animation-delay: 4.75s;*/
 }
 .waveMiddle {
     background-size: 50% 120px;
@@ -275,7 +275,7 @@ text-align: center;
 .profweb {
   white-space: wrap;
   text-align: center;
-  animation-delay: 2.75s;
+ /* animation-delay: 2.75s;*/
   word-spacing: 0.225rem;
   margin-top: -2.5rem;
     -webkit-user-select: none; /* Safari */
@@ -288,7 +288,7 @@ text-align: center;
   background:url(images/Down Arrowww.png) no-repeat;   
   z-index: 50;
   padding: 0.75em;
-  animation-delay: 3.75s;
+ /* animation-delay: 3.75s;*/
   animation-duration: 4s;
   -webkit-user-select: none; /* Safari */
   -ms-user-select: none; /* IE 10+ and Edge */
