@@ -1528,17 +1528,17 @@
     }
 }
 
-@media only screen and (min-width: 320px) and (min-height: 655px) {
+@media only screen and (min-width: 320px) and (min-height: 705px) {
     .waveTop {
       opacity: 1.0 !important;
     }
 }
-@media only screen and (min-width: 320px) and (min-height: 655px) {
+@media only screen and (min-width: 320px) and (min-height: 705px) {
     .waveMiddle {
         opacity: 1.0 !important;
     }
 }
-@media only screen and (min-width: 320px) and (min-height: 655px) {
+@media only screen and (min-width: 320px) and (min-height: 705px) {
     .waveBottom {
         opacity: 1.0 !important;
     }
